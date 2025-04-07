@@ -1,0 +1,9 @@
+C:\Users\amand\source\repos\IndWork\IndWork\bin\Debug\IndWork.exe.config
+C:\Users\amand\source\repos\IndWork\IndWork\bin\Debug\IndWork.exe
+C:\Users\amand\source\repos\IndWork\IndWork\bin\Debug\IndWork.pdb
+C:\Users\amand\source\repos\IndWork\IndWork\obj\Debug\IndWork.csproj.AssemblyReference.cache
+C:\Users\amand\source\repos\IndWork\IndWork\obj\Debug\IndWork.Properties.Resources.resources
+C:\Users\amand\source\repos\IndWork\IndWork\obj\Debug\IndWork.csproj.GenerateResource.cache
+C:\Users\amand\source\repos\IndWork\IndWork\obj\Debug\IndWork.csproj.CoreCompileInputs.cache
+C:\Users\amand\source\repos\IndWork\IndWork\obj\Debug\IndWork.exe
+C:\Users\amand\source\repos\IndWork\IndWork\obj\Debug\IndWork.pdb
