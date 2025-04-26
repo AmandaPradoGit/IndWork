@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\amand\\source\\repos\\IndWork\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{025B96A3-E3C5-4F86-B0F1-8489EFA8B796}|IndWork\\IndWork.csproj|c:\\users\\amand\\source\\repos\\indwork\\indwork\\telas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{025B96A3-E3C5-4F86-B0F1-8489EFA8B796}|IndWork\\IndWork.csproj|solutionrelative:indwork\\telas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{025B96A3-E3C5-4F86-B0F1-8489EFA8B796}|IndWork\\IndWork.csproj|c:\\users\\amand\\source\\repos\\indwork\\indwork\\telas\\gerenciarprestadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{025B96A3-E3C5-4F86-B0F1-8489EFA8B796}|IndWork\\IndWork.csproj|solutionrelative:indwork\\telas\\gerenciarprestadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{025B96A3-E3C5-4F86-B0F1-8489EFA8B796}|IndWork\\IndWork.csproj|C:\\Users\\amand\\source\\repos\\IndWork\\indwork\\telas\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{025B96A3-E3C5-4F86-B0F1-8489EFA8B796}|IndWork\\IndWork.csproj|solutionrelative:indwork\\telas\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{025B96A3-E3C5-4F86-B0F1-8489EFA8B796}|IndWork\\IndWork.csproj|C:\\Users\\amand\\source\\repos\\IndWork\\indwork\\telas\\gerenciarcontratantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{025B96A3-E3C5-4F86-B0F1-8489EFA8B796}|IndWork\\IndWork.csproj|solutionrelative:indwork\\telas\\gerenciarcontratantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +31,36 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\amand\\source\\repos\\IndWork\\IndWork\\Telas\\Form1.cs",
-              "RelativeDocumentMoniker": "IndWork\\Telas\\Form1.cs",
-              "ToolTip": "C:\\Users\\amand\\source\\repos\\IndWork\\IndWork\\Telas\\Form1.cs [Design]",
-              "RelativeToolTip": "IndWork\\Telas\\Form1.cs [Design]",
+              "Title": "GerenciarPrestadores.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\amand\\source\\repos\\IndWork\\IndWork\\Telas\\GerenciarPrestadores.cs",
+              "RelativeDocumentMoniker": "IndWork\\Telas\\GerenciarPrestadores.cs",
+              "ToolTip": "C:\\Users\\amand\\source\\repos\\IndWork\\IndWork\\Telas\\GerenciarPrestadores.cs [Design]",
+              "RelativeToolTip": "IndWork\\Telas\\GerenciarPrestadores.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T14:18:48.862Z",
+              "WhenOpened": "2025-04-24T11:27:07.264Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GerenciarContratantes.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\amand\\source\\repos\\IndWork\\IndWork\\Telas\\GerenciarContratantes.cs",
+              "RelativeDocumentMoniker": "IndWork\\Telas\\GerenciarContratantes.cs",
+              "ToolTip": "C:\\Users\\amand\\source\\repos\\IndWork\\IndWork\\Telas\\GerenciarContratantes.cs [Design]",
+              "RelativeToolTip": "IndWork\\Telas\\GerenciarContratantes.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T11:26:50.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Principal.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\amand\\source\\repos\\IndWork\\IndWork\\Telas\\Principal.cs",
+              "RelativeDocumentMoniker": "IndWork\\Telas\\Principal.cs",
+              "ToolTip": "C:\\Users\\amand\\source\\repos\\IndWork\\IndWork\\Telas\\Principal.cs [Design]",
+              "RelativeToolTip": "IndWork\\Telas\\Principal.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T00:11:50.112Z"
             }
           ]
         }

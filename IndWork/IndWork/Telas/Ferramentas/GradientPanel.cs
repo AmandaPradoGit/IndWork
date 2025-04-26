@@ -5,8 +5,8 @@ using System.Windows.Forms;
 
 public class GradientPanel : Panel
 {
-    public Color StartColor { get; set; } = Color.FromArgb(20, 97, 153);
-    public Color EndColor { get; set; } = Color.FromArgb(251, 136, 107);
+    public Color StartColor { get; set; } = Color.FromArgb(0, 0, 0);
+    public Color EndColor { get; set; } = Color.FromArgb(25,4,115);
     public LinearGradientMode GradientMode { get; set; } = LinearGradientMode.Horizontal;
 
     public GradientPanel()
