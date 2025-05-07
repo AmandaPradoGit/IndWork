@@ -1,33 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\amand\\source\\repos\\IndWork\\",
+  "WorkspaceRootPath": "C:\\Users\\amand\\OneDrive\\Comuna\\Documentos\\GitHub\\IndWork\\IndWork\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{025B96A3-E3C5-4F86-B0F1-8489EFA8B796}|IndWork\\IndWork.csproj|c:\\users\\amand\\source\\repos\\indwork\\indwork\\telas\\sobrenos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{025B96A3-E3C5-4F86-B0F1-8489EFA8B796}|IndWork\\IndWork.csproj|c:\\users\\amand\\onedrive\\comuna\\documentos\\github\\indwork\\indwork\\indwork\\telas\\sobrenos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{025B96A3-E3C5-4F86-B0F1-8489EFA8B796}|IndWork\\IndWork.csproj|solutionrelative:indwork\\telas\\sobrenos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{025B96A3-E3C5-4F86-B0F1-8489EFA8B796}|IndWork\\IndWork.csproj|c:\\users\\amand\\source\\repos\\indwork\\indwork\\telas\\sobrenos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{025B96A3-E3C5-4F86-B0F1-8489EFA8B796}|IndWork\\IndWork.csproj|C:\\Users\\amand\\OneDrive\\Comuna\\Documentos\\GitHub\\IndWork\\IndWork\\indwork\\telas\\sobrenos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{025B96A3-E3C5-4F86-B0F1-8489EFA8B796}|IndWork\\IndWork.csproj|solutionrelative:indwork\\telas\\sobrenos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{025B96A3-E3C5-4F86-B0F1-8489EFA8B796}|IndWork\\IndWork.csproj|c:\\users\\amand\\source\\repos\\indwork\\indwork\\telas\\pesquisa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{025B96A3-E3C5-4F86-B0F1-8489EFA8B796}|IndWork\\IndWork.csproj|C:\\Users\\amand\\OneDrive\\Comuna\\Documentos\\GitHub\\IndWork\\IndWork\\indwork\\telas\\pesquisa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{025B96A3-E3C5-4F86-B0F1-8489EFA8B796}|IndWork\\IndWork.csproj|solutionrelative:indwork\\telas\\pesquisa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{025B96A3-E3C5-4F86-B0F1-8489EFA8B796}|IndWork\\IndWork.csproj|c:\\users\\amand\\source\\repos\\indwork\\indwork\\telas\\categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{025B96A3-E3C5-4F86-B0F1-8489EFA8B796}|IndWork\\IndWork.csproj|C:\\Users\\amand\\OneDrive\\Comuna\\Documentos\\GitHub\\IndWork\\IndWork\\indwork\\telas\\categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{025B96A3-E3C5-4F86-B0F1-8489EFA8B796}|IndWork\\IndWork.csproj|solutionrelative:indwork\\telas\\categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{025B96A3-E3C5-4F86-B0F1-8489EFA8B796}|IndWork\\IndWork.csproj|c:\\users\\amand\\source\\repos\\indwork\\indwork\\telas\\cadastrarcontratante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{025B96A3-E3C5-4F86-B0F1-8489EFA8B796}|IndWork\\IndWork.csproj|C:\\Users\\amand\\OneDrive\\Comuna\\Documentos\\GitHub\\IndWork\\IndWork\\indwork\\telas\\cadastrarcontratante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{025B96A3-E3C5-4F86-B0F1-8489EFA8B796}|IndWork\\IndWork.csproj|solutionrelative:indwork\\telas\\cadastrarcontratante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{025B96A3-E3C5-4F86-B0F1-8489EFA8B796}|IndWork\\IndWork.csproj|c:\\users\\amand\\source\\repos\\indwork\\indwork\\telas\\cadastroprestador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{025B96A3-E3C5-4F86-B0F1-8489EFA8B796}|IndWork\\IndWork.csproj|C:\\Users\\amand\\OneDrive\\Comuna\\Documentos\\GitHub\\IndWork\\IndWork\\indwork\\telas\\cadastroprestador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{025B96A3-E3C5-4F86-B0F1-8489EFA8B796}|IndWork\\IndWork.csproj|solutionrelative:indwork\\telas\\cadastroprestador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{025B96A3-E3C5-4F86-B0F1-8489EFA8B796}|IndWork\\IndWork.csproj|c:\\users\\amand\\source\\repos\\indwork\\indwork\\telas\\ajuda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{025B96A3-E3C5-4F86-B0F1-8489EFA8B796}|IndWork\\IndWork.csproj|C:\\Users\\amand\\OneDrive\\Comuna\\Documentos\\GitHub\\IndWork\\IndWork\\indwork\\telas\\ajuda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{025B96A3-E3C5-4F86-B0F1-8489EFA8B796}|IndWork\\IndWork.csproj|solutionrelative:indwork\\telas\\ajuda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -48,9 +48,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "SobreNos.cs",
-              "DocumentMoniker": "C:\\Users\\amand\\source\\repos\\IndWork\\IndWork\\Telas\\SobreNos.cs",
+              "DocumentMoniker": "C:\\Users\\amand\\OneDrive\\Comuna\\Documentos\\GitHub\\IndWork\\IndWork\\IndWork\\Telas\\SobreNos.cs",
               "RelativeDocumentMoniker": "IndWork\\Telas\\SobreNos.cs",
-              "ToolTip": "C:\\Users\\amand\\source\\repos\\IndWork\\IndWork\\Telas\\SobreNos.cs",
+              "ToolTip": "C:\\Users\\amand\\OneDrive\\Comuna\\Documentos\\GitHub\\IndWork\\IndWork\\IndWork\\Telas\\SobreNos.cs",
               "RelativeToolTip": "IndWork\\Telas\\SobreNos.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAYwC8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -61,9 +61,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "SobreNos.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\amand\\source\\repos\\IndWork\\IndWork\\Telas\\SobreNos.cs",
+              "DocumentMoniker": "C:\\Users\\amand\\OneDrive\\Comuna\\Documentos\\GitHub\\IndWork\\IndWork\\IndWork\\Telas\\SobreNos.cs",
               "RelativeDocumentMoniker": "IndWork\\Telas\\SobreNos.cs",
-              "ToolTip": "C:\\Users\\amand\\source\\repos\\IndWork\\IndWork\\Telas\\SobreNos.cs [Design]",
+              "ToolTip": "C:\\Users\\amand\\OneDrive\\Comuna\\Documentos\\GitHub\\IndWork\\IndWork\\IndWork\\Telas\\SobreNos.cs [Design]",
               "RelativeToolTip": "IndWork\\Telas\\SobreNos.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-26T21:27:18.298Z",
@@ -73,66 +73,61 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Pesquisa.cs",
-              "DocumentMoniker": "C:\\Users\\amand\\source\\repos\\IndWork\\IndWork\\Telas\\Pesquisa.cs",
+              "DocumentMoniker": "C:\\Users\\amand\\OneDrive\\Comuna\\Documentos\\GitHub\\IndWork\\IndWork\\IndWork\\Telas\\Pesquisa.cs",
               "RelativeDocumentMoniker": "IndWork\\Telas\\Pesquisa.cs",
-              "ToolTip": "C:\\Users\\amand\\source\\repos\\IndWork\\IndWork\\Telas\\Pesquisa.cs",
+              "ToolTip": "C:\\Users\\amand\\OneDrive\\Comuna\\Documentos\\GitHub\\IndWork\\IndWork\\IndWork\\Telas\\Pesquisa.cs",
               "RelativeToolTip": "IndWork\\Telas\\Pesquisa.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAkwDAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T21:23:04.185Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T21:23:04.185Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Categorias.cs",
-              "DocumentMoniker": "C:\\Users\\amand\\source\\repos\\IndWork\\IndWork\\Telas\\Categorias.cs",
+              "DocumentMoniker": "C:\\Users\\amand\\OneDrive\\Comuna\\Documentos\\GitHub\\IndWork\\IndWork\\IndWork\\Telas\\Categorias.cs",
               "RelativeDocumentMoniker": "IndWork\\Telas\\Categorias.cs",
-              "ToolTip": "C:\\Users\\amand\\source\\repos\\IndWork\\IndWork\\Telas\\Categorias.cs",
+              "ToolTip": "C:\\Users\\amand\\OneDrive\\Comuna\\Documentos\\GitHub\\IndWork\\IndWork\\IndWork\\Telas\\Categorias.cs",
               "RelativeToolTip": "IndWork\\Telas\\Categorias.cs",
               "ViewState": "AgIAADIAAAAAAAAAAAAcwE0AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T21:19:52.065Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T21:19:52.065Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "CadastroPrestador.cs",
-              "DocumentMoniker": "C:\\Users\\amand\\source\\repos\\IndWork\\IndWork\\Telas\\CadastroPrestador.cs",
+              "DocumentMoniker": "C:\\Users\\amand\\OneDrive\\Comuna\\Documentos\\GitHub\\IndWork\\IndWork\\IndWork\\Telas\\CadastroPrestador.cs",
               "RelativeDocumentMoniker": "IndWork\\Telas\\CadastroPrestador.cs",
-              "ToolTip": "C:\\Users\\amand\\source\\repos\\IndWork\\IndWork\\Telas\\CadastroPrestador.cs",
+              "ToolTip": "C:\\Users\\amand\\OneDrive\\Comuna\\Documentos\\GitHub\\IndWork\\IndWork\\IndWork\\Telas\\CadastroPrestador.cs",
               "RelativeToolTip": "IndWork\\Telas\\CadastroPrestador.cs",
               "ViewState": "AgIAAGMAAAAAAAAAAAAYwH0AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T20:57:32.617Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T20:57:32.617Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "CadastrarContratante.cs",
-              "DocumentMoniker": "C:\\Users\\amand\\source\\repos\\IndWork\\IndWork\\Telas\\CadastrarContratante.cs",
+              "DocumentMoniker": "C:\\Users\\amand\\OneDrive\\Comuna\\Documentos\\GitHub\\IndWork\\IndWork\\IndWork\\Telas\\CadastrarContratante.cs",
               "RelativeDocumentMoniker": "IndWork\\Telas\\CadastrarContratante.cs",
-              "ToolTip": "C:\\Users\\amand\\source\\repos\\IndWork\\IndWork\\Telas\\CadastrarContratante.cs",
+              "ToolTip": "C:\\Users\\amand\\OneDrive\\Comuna\\Documentos\\GitHub\\IndWork\\IndWork\\IndWork\\Telas\\CadastrarContratante.cs",
               "RelativeToolTip": "IndWork\\Telas\\CadastrarContratante.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAqwEMAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T20:47:36.545Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T20:47:36.545Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Ajuda.cs",
-              "DocumentMoniker": "C:\\Users\\amand\\source\\repos\\IndWork\\IndWork\\Telas\\Ajuda.cs",
+              "DocumentMoniker": "C:\\Users\\amand\\OneDrive\\Comuna\\Documentos\\GitHub\\IndWork\\IndWork\\IndWork\\Telas\\Ajuda.cs",
               "RelativeDocumentMoniker": "IndWork\\Telas\\Ajuda.cs",
-              "ToolTip": "C:\\Users\\amand\\source\\repos\\IndWork\\IndWork\\Telas\\Ajuda.cs",
+              "ToolTip": "C:\\Users\\amand\\OneDrive\\Comuna\\Documentos\\GitHub\\IndWork\\IndWork\\IndWork\\Telas\\Ajuda.cs",
               "RelativeToolTip": "IndWork\\Telas\\Ajuda.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAkwD4AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T20:44:55.933Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T20:44:55.933Z"
             }
           ]
         }
