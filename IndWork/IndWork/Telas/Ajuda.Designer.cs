@@ -28,16 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.roundedPanel2 = new RoundedPanel();
+            this.label4 = new System.Windows.Forms.Label();
             this.roundedPanel1 = new RoundedPanel();
-            this.linkCategorias = new System.Windows.Forms.LinkLabel();
             this.label3 = new System.Windows.Forms.Label();
             this.linkSobreNos = new System.Windows.Forms.LinkLabel();
             this.linkTelaPrincipal = new System.Windows.Forms.LinkLabel();
             this.linkPesquisa = new System.Windows.Forms.LinkLabel();
             this.linkCadastroPrestadores = new System.Windows.Forms.LinkLabel();
-            this.linkCadastroContratantes = new System.Windows.Forms.LinkLabel();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.btnFacebook2 = new System.Windows.Forms.Button();
@@ -56,29 +58,23 @@
             this.btnIndWork = new System.Windows.Forms.Button();
             this.Fechar = new System.Windows.Forms.Button();
             this.Minimizar = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.roundedPanel1.SuspendLayout();
             this.gradientPanel2.SuspendLayout();
             this.gradientPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.pictureBox1.BackgroundImage = global::IndWork.Properties.Resources.Captura_de_tela_2025_04_23_200216;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 51);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(532, 497);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 5;
-            this.pictureBox1.TabStop = false;
-            // 
             // panel1
             // 
             this.panel1.AutoScroll = true;
             this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.linkLabel1);
+            this.panel1.Controls.Add(this.label5);
+            this.panel1.Controls.Add(this.panel2);
+            this.panel1.Controls.Add(this.roundedPanel2);
+            this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.roundedPanel1);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
@@ -87,12 +83,69 @@
             this.panel1.Controls.Add(this.btnLinkedIn2);
             this.panel1.Controls.Add(this.gradientPanel2);
             this.panel1.Controls.Add(this.label11);
-            this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 51);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1531, 708);
             this.panel1.TabIndex = 6;
+            // 
+            // label5
+            // 
+            this.label5.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Myanmar Text", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.label5.Location = new System.Drawing.Point(153, 301);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(135, 41);
+            this.label5.TabIndex = 24;
+            this.label5.Text = "Localização";
+            // 
+            // panel2
+            // 
+            this.panel2.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(4)))), ((int)(((byte)(115)))));
+            this.panel2.Controls.Add(this.panel3);
+            this.panel2.Location = new System.Drawing.Point(157, 108);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(866, 171);
+            this.panel2.TabIndex = 23;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            // 
+            // panel3
+            // 
+            this.panel3.BackgroundImage = global::IndWork.Properties.Resources.IndWork__1_;
+            this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel3.Location = new System.Drawing.Point(252, 44);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(353, 69);
+            this.panel3.TabIndex = 0;
+            // 
+            // roundedPanel2
+            // 
+            this.roundedPanel2.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.roundedPanel2.BackColor = System.Drawing.Color.Transparent;
+            this.roundedPanel2.BackgroundImage = global::IndWork.Properties.Resources.Rectangle_104;
+            this.roundedPanel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.roundedPanel2.BorderColor = System.Drawing.Color.Black;
+            this.roundedPanel2.BorderRadius = 20;
+            this.roundedPanel2.BorderSize = 0;
+            this.roundedPanel2.Location = new System.Drawing.Point(157, 367);
+            this.roundedPanel2.Name = "roundedPanel2";
+            this.roundedPanel2.Size = new System.Drawing.Size(866, 242);
+            this.roundedPanel2.TabIndex = 22;
+            // 
+            // label4
+            // 
+            this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Myanmar Text", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.label4.Location = new System.Drawing.Point(1226, 502);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(167, 41);
+            this.label4.TabIndex = 21;
+            this.label4.Text = "(12) 3143-3903";
             // 
             // roundedPanel1
             // 
@@ -100,39 +153,24 @@
             this.roundedPanel1.BorderColor = System.Drawing.Color.Black;
             this.roundedPanel1.BorderRadius = 50;
             this.roundedPanel1.BorderSize = 0;
-            this.roundedPanel1.Controls.Add(this.linkCategorias);
             this.roundedPanel1.Controls.Add(this.label3);
             this.roundedPanel1.Controls.Add(this.linkSobreNos);
             this.roundedPanel1.Controls.Add(this.linkTelaPrincipal);
             this.roundedPanel1.Controls.Add(this.linkPesquisa);
             this.roundedPanel1.Controls.Add(this.linkCadastroPrestadores);
-            this.roundedPanel1.Controls.Add(this.linkCadastroContratantes);
-            this.roundedPanel1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.roundedPanel1.Location = new System.Drawing.Point(1157, 0);
+            this.roundedPanel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.roundedPanel1.Location = new System.Drawing.Point(0, 0);
             this.roundedPanel1.Name = "roundedPanel1";
-            this.roundedPanel1.Size = new System.Drawing.Size(374, 642);
+            this.roundedPanel1.Size = new System.Drawing.Size(1531, 91);
             this.roundedPanel1.TabIndex = 20;
-            // 
-            // linkCategorias
-            // 
-            this.linkCategorias.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.linkCategorias.AutoSize = true;
-            this.linkCategorias.Font = new System.Drawing.Font("Myanmar Text", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkCategorias.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.linkCategorias.Location = new System.Drawing.Point(73, 425);
-            this.linkCategorias.Name = "linkCategorias";
-            this.linkCategorias.Size = new System.Drawing.Size(98, 32);
-            this.linkCategorias.TabIndex = 20;
-            this.linkCategorias.TabStop = true;
-            this.linkCategorias.Text = "Categorias";
             // 
             // label3
             // 
-            this.label3.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Myanmar Text", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.label3.Location = new System.Drawing.Point(64, 139);
+            this.label3.Location = new System.Drawing.Point(38, 22);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(250, 53);
             this.label3.TabIndex = 14;
@@ -140,24 +178,26 @@
             // 
             // linkSobreNos
             // 
-            this.linkSobreNos.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.linkSobreNos.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.linkSobreNos.AutoSize = true;
             this.linkSobreNos.Font = new System.Drawing.Font("Myanmar Text", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkSobreNos.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.linkSobreNos.Location = new System.Drawing.Point(73, 376);
+            this.linkSobreNos.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
+            this.linkSobreNos.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.linkSobreNos.Location = new System.Drawing.Point(982, 34);
             this.linkSobreNos.Name = "linkSobreNos";
-            this.linkSobreNos.Size = new System.Drawing.Size(95, 32);
+            this.linkSobreNos.Size = new System.Drawing.Size(90, 32);
             this.linkSobreNos.TabIndex = 19;
             this.linkSobreNos.TabStop = true;
-            this.linkSobreNos.Text = "Sobre nós";
+            this.linkSobreNos.Text = "Prestador";
             // 
             // linkTelaPrincipal
             // 
-            this.linkTelaPrincipal.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.linkTelaPrincipal.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.linkTelaPrincipal.AutoSize = true;
             this.linkTelaPrincipal.Font = new System.Drawing.Font("Myanmar Text", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkTelaPrincipal.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.linkTelaPrincipal.Location = new System.Drawing.Point(73, 206);
+            this.linkTelaPrincipal.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
+            this.linkTelaPrincipal.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.linkTelaPrincipal.Location = new System.Drawing.Point(355, 34);
             this.linkTelaPrincipal.Name = "linkTelaPrincipal";
             this.linkTelaPrincipal.Size = new System.Drawing.Size(116, 32);
             this.linkTelaPrincipal.TabIndex = 15;
@@ -166,42 +206,31 @@
             // 
             // linkPesquisa
             // 
-            this.linkPesquisa.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.linkPesquisa.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.linkPesquisa.AutoSize = true;
             this.linkPesquisa.Font = new System.Drawing.Font("Myanmar Text", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkPesquisa.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.linkPesquisa.Location = new System.Drawing.Point(73, 333);
+            this.linkPesquisa.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
+            this.linkPesquisa.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.linkPesquisa.Location = new System.Drawing.Point(787, 34);
             this.linkPesquisa.Name = "linkPesquisa";
-            this.linkPesquisa.Size = new System.Drawing.Size(83, 32);
+            this.linkPesquisa.Size = new System.Drawing.Size(107, 32);
             this.linkPesquisa.TabIndex = 18;
             this.linkPesquisa.TabStop = true;
-            this.linkPesquisa.Text = "Pesquisa";
+            this.linkPesquisa.Text = "Contratante";
             // 
             // linkCadastroPrestadores
             // 
-            this.linkCadastroPrestadores.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.linkCadastroPrestadores.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.linkCadastroPrestadores.AutoSize = true;
             this.linkCadastroPrestadores.Font = new System.Drawing.Font("Myanmar Text", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkCadastroPrestadores.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.linkCadastroPrestadores.Location = new System.Drawing.Point(73, 247);
+            this.linkCadastroPrestadores.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
+            this.linkCadastroPrestadores.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.linkCadastroPrestadores.Location = new System.Drawing.Point(565, 34);
             this.linkCadastroPrestadores.Name = "linkCadastroPrestadores";
-            this.linkCadastroPrestadores.Size = new System.Drawing.Size(208, 32);
+            this.linkCadastroPrestadores.Size = new System.Drawing.Size(124, 32);
             this.linkCadastroPrestadores.TabIndex = 16;
             this.linkCadastroPrestadores.TabStop = true;
-            this.linkCadastroPrestadores.Text = "Cadastro de Prestadores";
-            // 
-            // linkCadastroContratantes
-            // 
-            this.linkCadastroContratantes.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.linkCadastroContratantes.AutoSize = true;
-            this.linkCadastroContratantes.Font = new System.Drawing.Font("Myanmar Text", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkCadastroContratantes.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.linkCadastroContratantes.Location = new System.Drawing.Point(73, 292);
-            this.linkCadastroContratantes.Name = "linkCadastroContratantes";
-            this.linkCadastroContratantes.Size = new System.Drawing.Size(216, 32);
-            this.linkCadastroContratantes.TabIndex = 17;
-            this.linkCadastroContratantes.TabStop = true;
-            this.linkCadastroContratantes.Text = "Cadastro de Contratantes";
+            this.linkCadastroPrestadores.Text = "Quem Somos";
             // 
             // label2
             // 
@@ -209,7 +238,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Myanmar Text", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.label2.Location = new System.Drawing.Point(623, 419);
+            this.label2.Location = new System.Drawing.Point(1167, 461);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(276, 41);
             this.label2.TabIndex = 13;
@@ -222,11 +251,11 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Myanmar Text", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.label1.Location = new System.Drawing.Point(696, 350);
+            this.label1.Location = new System.Drawing.Point(1233, 408);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(130, 53);
+            this.label1.Size = new System.Drawing.Size(143, 53);
             this.label1.TabIndex = 12;
-            this.label1.Text = "Contato";
+            this.label1.Text = "Contatos";
             // 
             // btnFacebook2
             // 
@@ -236,7 +265,7 @@
             this.btnFacebook2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnFacebook2.FlatAppearance.BorderSize = 0;
             this.btnFacebook2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFacebook2.Location = new System.Drawing.Point(857, 195);
+            this.btnFacebook2.Location = new System.Drawing.Point(1398, 164);
             this.btnFacebook2.Name = "btnFacebook2";
             this.btnFacebook2.Size = new System.Drawing.Size(106, 71);
             this.btnFacebook2.TabIndex = 11;
@@ -250,7 +279,7 @@
             this.btnInstagram2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnInstagram2.FlatAppearance.BorderSize = 0;
             this.btnInstagram2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnInstagram2.Location = new System.Drawing.Point(720, 195);
+            this.btnInstagram2.Location = new System.Drawing.Point(1261, 164);
             this.btnInstagram2.Name = "btnInstagram2";
             this.btnInstagram2.Size = new System.Drawing.Size(106, 71);
             this.btnInstagram2.TabIndex = 10;
@@ -264,7 +293,7 @@
             this.btnLinkedIn2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnLinkedIn2.FlatAppearance.BorderSize = 0;
             this.btnLinkedIn2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLinkedIn2.Location = new System.Drawing.Point(571, 195);
+            this.btnLinkedIn2.Location = new System.Drawing.Point(1112, 164);
             this.btnLinkedIn2.Name = "btnLinkedIn2";
             this.btnLinkedIn2.Size = new System.Drawing.Size(106, 71);
             this.btnLinkedIn2.TabIndex = 9;
@@ -361,7 +390,7 @@
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Myanmar Text", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.label11.Location = new System.Drawing.Point(669, 139);
+            this.label11.Location = new System.Drawing.Point(1210, 108);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(202, 53);
             this.label11.TabIndex = 7;
@@ -466,6 +495,20 @@
             this.Minimizar.UseVisualStyleBackColor = false;
             this.Minimizar.Click += new System.EventHandler(this.Minimizar_Click);
             // 
+            // linkLabel1
+            // 
+            this.linkLabel1.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Font = new System.Drawing.Font("Myanmar Text", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel1.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
+            this.linkLabel1.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.linkLabel1.Location = new System.Drawing.Point(151, 332);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(129, 32);
+            this.linkLabel1.TabIndex = 25;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Abrir no mapa";
+            // 
             // Ajuda
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -478,9 +521,9 @@
             this.Text = "Ajuda";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Ajuda_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
             this.roundedPanel1.ResumeLayout(false);
             this.roundedPanel1.PerformLayout();
             this.gradientPanel2.ResumeLayout(false);
@@ -498,7 +541,6 @@
         private System.Windows.Forms.Button btnIndWork;
         private System.Windows.Forms.Button Fechar;
         private System.Windows.Forms.Button Minimizar;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label2;
@@ -516,9 +558,13 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.LinkLabel linkSobreNos;
         private System.Windows.Forms.LinkLabel linkPesquisa;
-        private System.Windows.Forms.LinkLabel linkCadastroContratantes;
         private System.Windows.Forms.LinkLabel linkCadastroPrestadores;
         private RoundedPanel roundedPanel1;
-        private System.Windows.Forms.LinkLabel linkCategorias;
+        private RoundedPanel roundedPanel2;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }

@@ -123,6 +123,26 @@ namespace IndWork.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap IndWork__1_ {
+            get {
+                object obj = ResourceManager.GetObject("IndWork (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap IndWork1 {
+            get {
+                object obj = ResourceManager.GetObject("IndWork1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap instagram_logo {
             get {
                 object obj = ResourceManager.GetObject("instagram logo", resourceCulture);
@@ -146,6 +166,26 @@ namespace IndWork.Properties {
         internal static System.Drawing.Bitmap opened_envelope {
             get {
                 object obj = ResourceManager.GetObject("opened envelope", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Rectangle_104 {
+            get {
+                object obj = ResourceManager.GetObject("Rectangle 104", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Rectangle_105 {
+            get {
+                object obj = ResourceManager.GetObject("Rectangle 105", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

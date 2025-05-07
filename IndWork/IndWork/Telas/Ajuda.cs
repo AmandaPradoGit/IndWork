@@ -62,5 +62,10 @@ namespace IndWork.Telas
             sobreNos.Show();
             this.Hide();
         }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
