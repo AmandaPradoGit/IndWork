@@ -228,5 +228,14 @@
   <ItemGroup>
     <None Include="Resources\IndWork %281%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\telephone receiver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Business.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

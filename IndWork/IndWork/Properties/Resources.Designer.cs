@@ -73,6 +73,16 @@ namespace IndWork.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Business {
+            get {
+                object obj = ResourceManager.GetObject("Business", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Captura_de_tela_2025_04_23_200216 {
             get {
                 object obj = ResourceManager.GetObject("Captura de tela 2025-04-23 200216", resourceCulture);
@@ -173,6 +183,16 @@ namespace IndWork.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pin {
+            get {
+                object obj = ResourceManager.GetObject("pin", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Rectangle_104 {
             get {
                 object obj = ResourceManager.GetObject("Rectangle 104", resourceCulture);
@@ -196,6 +216,16 @@ namespace IndWork.Properties {
         internal static System.Drawing.Bitmap Sewing_Machine {
             get {
                 object obj = ResourceManager.GetObject("Sewing Machine", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap telephone_receiver {
+            get {
+                object obj = ResourceManager.GetObject("telephone receiver", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
