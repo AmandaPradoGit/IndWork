@@ -31,5 +31,29 @@ namespace IndWork.Telas
         {
 
         }
+
+        private void Fechar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void Minimizar_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Principal p = new Principal();
+            p.Show();
+            this.Hide();
+        }
+
+        private void btnAjuda_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Ajuda ajuda = new Ajuda();
+            ajuda.Show();
+            this.Hide();
+        }
     }
 }

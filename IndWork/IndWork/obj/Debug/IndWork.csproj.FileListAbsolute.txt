@@ -55,3 +55,6 @@ C:\Users\Erico\Documents\GitHub\IndWork\IndWork\IndWork\obj\Debug\IndWork.csproj
 C:\Users\Erico\Documents\GitHub\IndWork\IndWork\IndWork\obj\Debug\IndWork.csproj.CoreCompileInputs.cache
 C:\Users\Erico\Documents\GitHub\IndWork\IndWork\IndWork\obj\Debug\IndWork.exe
 C:\Users\Erico\Documents\GitHub\IndWork\IndWork\IndWork\obj\Debug\IndWork.pdb
+C:\Users\Erico\Documents\GitHub\IndWork\IndWork\IndWork\obj\Debug\IndWork.Telas.PerfilPrestador.resources
+C:\Users\Erico\Documents\GitHub\IndWork\IndWork\IndWork\obj\Debug\IndWork.Telas.Avaliacao.resources
+C:\Users\Erico\Documents\GitHub\IndWork\IndWork\IndWork\obj\Debug\IndWork.Telas.Contratacao.resources

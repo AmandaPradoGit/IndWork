@@ -56,9 +56,10 @@
             this.panel1.Controls.Add(this.label14);
             this.panel1.Controls.Add(this.gradientPanel2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(0, 51);
+            this.panel1.Location = new System.Drawing.Point(0, 41);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1434, 710);
+            this.panel1.Size = new System.Drawing.Size(1040, 577);
             this.panel1.TabIndex = 4;
             // 
             // label14
@@ -67,9 +68,10 @@
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Myanmar Text", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.label14.Location = new System.Drawing.Point(49, 39);
+            this.label14.Location = new System.Drawing.Point(19, 32);
+            this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(201, 53);
+            this.label14.Size = new System.Drawing.Size(161, 43);
             this.label14.TabIndex = 10;
             this.label14.Text = "Quem somos";
             // 
@@ -83,9 +85,10 @@
             this.gradientPanel2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.gradientPanel2.EndColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(4)))), ((int)(((byte)(115)))));
             this.gradientPanel2.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Horizontal;
-            this.gradientPanel2.Location = new System.Drawing.Point(0, 644);
+            this.gradientPanel2.Location = new System.Drawing.Point(0, 523);
+            this.gradientPanel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.gradientPanel2.Name = "gradientPanel2";
-            this.gradientPanel2.Size = new System.Drawing.Size(1434, 66);
+            this.gradientPanel2.Size = new System.Drawing.Size(1040, 54);
             this.gradientPanel2.StartColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.gradientPanel2.TabIndex = 1;
             // 
@@ -97,9 +100,10 @@
             this.btnFacebook.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnFacebook.FlatAppearance.BorderSize = 0;
             this.btnFacebook.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFacebook.Location = new System.Drawing.Point(1383, 17);
+            this.btnFacebook.Location = new System.Drawing.Point(1001, 14);
+            this.btnFacebook.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnFacebook.Name = "btnFacebook";
-            this.btnFacebook.Size = new System.Drawing.Size(39, 37);
+            this.btnFacebook.Size = new System.Drawing.Size(29, 30);
             this.btnFacebook.TabIndex = 8;
             this.btnFacebook.UseVisualStyleBackColor = false;
             // 
@@ -111,9 +115,10 @@
             this.btnInstagram.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnInstagram.FlatAppearance.BorderSize = 0;
             this.btnInstagram.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnInstagram.Location = new System.Drawing.Point(1328, 17);
+            this.btnInstagram.Location = new System.Drawing.Point(960, 14);
+            this.btnInstagram.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnInstagram.Name = "btnInstagram";
-            this.btnInstagram.Size = new System.Drawing.Size(39, 37);
+            this.btnInstagram.Size = new System.Drawing.Size(29, 30);
             this.btnInstagram.TabIndex = 7;
             this.btnInstagram.UseVisualStyleBackColor = false;
             // 
@@ -125,9 +130,10 @@
             this.btnLinkedIn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnLinkedIn.FlatAppearance.BorderSize = 0;
             this.btnLinkedIn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLinkedIn.Location = new System.Drawing.Point(1276, 17);
+            this.btnLinkedIn.Location = new System.Drawing.Point(921, 14);
+            this.btnLinkedIn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnLinkedIn.Name = "btnLinkedIn";
-            this.btnLinkedIn.Size = new System.Drawing.Size(39, 37);
+            this.btnLinkedIn.Size = new System.Drawing.Size(29, 30);
             this.btnLinkedIn.TabIndex = 6;
             this.btnLinkedIn.UseVisualStyleBackColor = false;
             // 
@@ -139,9 +145,10 @@
             this.btnEmail.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnEmail.FlatAppearance.BorderSize = 0;
             this.btnEmail.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEmail.Location = new System.Drawing.Point(1219, 14);
+            this.btnEmail.Location = new System.Drawing.Point(878, 11);
+            this.btnEmail.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnEmail.Name = "btnEmail";
-            this.btnEmail.Size = new System.Drawing.Size(39, 37);
+            this.btnEmail.Size = new System.Drawing.Size(29, 30);
             this.btnEmail.TabIndex = 5;
             this.btnEmail.UseVisualStyleBackColor = false;
             // 
@@ -152,9 +159,10 @@
             this.btnIndWork2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnIndWork2.FlatAppearance.BorderSize = 0;
             this.btnIndWork2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnIndWork2.Location = new System.Drawing.Point(23, 23);
+            this.btnIndWork2.Location = new System.Drawing.Point(17, 19);
+            this.btnIndWork2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnIndWork2.Name = "btnIndWork2";
-            this.btnIndWork2.Size = new System.Drawing.Size(101, 18);
+            this.btnIndWork2.Size = new System.Drawing.Size(76, 15);
             this.btnIndWork2.TabIndex = 4;
             this.btnIndWork2.UseVisualStyleBackColor = false;
             // 
@@ -166,11 +174,12 @@
             this.textBox1.Cursor = System.Windows.Forms.Cursors.Default;
             this.textBox1.Font = new System.Drawing.Font("Myanmar Text", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.textBox1.Location = new System.Drawing.Point(58, 166);
+            this.textBox1.Location = new System.Drawing.Point(44, 135);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(1316, 483);
+            this.textBox1.Size = new System.Drawing.Size(987, 392);
             this.textBox1.TabIndex = 11;
             this.textBox1.Text = resources.GetString("textBox1.Text");
             // 
@@ -185,8 +194,9 @@
             this.gradientPanel1.EndColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(4)))), ((int)(((byte)(115)))));
             this.gradientPanel1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Horizontal;
             this.gradientPanel1.Location = new System.Drawing.Point(0, 0);
+            this.gradientPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.gradientPanel1.Name = "gradientPanel1";
-            this.gradientPanel1.Size = new System.Drawing.Size(1434, 51);
+            this.gradientPanel1.Size = new System.Drawing.Size(1040, 41);
             this.gradientPanel1.StartColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.gradientPanel1.TabIndex = 3;
             this.gradientPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.gradientPanel1_Paint);
@@ -200,13 +210,15 @@
             this.btnSobreNós.Font = new System.Drawing.Font("Myanmar Text", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSobreNós.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
             this.btnSobreNós.LinkColor = System.Drawing.Color.White;
-            this.btnSobreNós.Location = new System.Drawing.Point(1250, 17);
+            this.btnSobreNós.Location = new System.Drawing.Point(902, 14);
+            this.btnSobreNós.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.btnSobreNós.Name = "btnSobreNós";
-            this.btnSobreNós.Size = new System.Drawing.Size(78, 27);
+            this.btnSobreNós.Size = new System.Drawing.Size(62, 21);
             this.btnSobreNós.TabIndex = 5;
             this.btnSobreNós.TabStop = true;
             this.btnSobreNós.Text = "Sobre nós";
             this.btnSobreNós.VisitedLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnSobreNós.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.btnSobreNós_LinkClicked);
             // 
             // btnAjuda
             // 
@@ -217,9 +229,10 @@
             this.btnAjuda.Font = new System.Drawing.Font("Myanmar Text", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAjuda.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
             this.btnAjuda.LinkColor = System.Drawing.Color.White;
-            this.btnAjuda.Location = new System.Drawing.Point(1157, 17);
+            this.btnAjuda.Location = new System.Drawing.Point(832, 14);
+            this.btnAjuda.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.btnAjuda.Name = "btnAjuda";
-            this.btnAjuda.Size = new System.Drawing.Size(51, 27);
+            this.btnAjuda.Size = new System.Drawing.Size(41, 21);
             this.btnAjuda.TabIndex = 4;
             this.btnAjuda.TabStop = true;
             this.btnAjuda.Text = "Ajuda";
@@ -233,9 +246,10 @@
             this.btnIndWork.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnIndWork.FlatAppearance.BorderSize = 0;
             this.btnIndWork.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnIndWork.Location = new System.Drawing.Point(23, 19);
+            this.btnIndWork.Location = new System.Drawing.Point(17, 15);
+            this.btnIndWork.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnIndWork.Name = "btnIndWork";
-            this.btnIndWork.Size = new System.Drawing.Size(101, 18);
+            this.btnIndWork.Size = new System.Drawing.Size(76, 15);
             this.btnIndWork.TabIndex = 3;
             this.btnIndWork.UseVisualStyleBackColor = false;
             this.btnIndWork.Click += new System.EventHandler(this.btnIndWork_Click);
@@ -248,9 +262,10 @@
             this.Fechar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Fechar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Fechar.ForeColor = System.Drawing.Color.White;
-            this.Fechar.Location = new System.Drawing.Point(1396, 5);
+            this.Fechar.Location = new System.Drawing.Point(1011, 4);
+            this.Fechar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Fechar.Name = "Fechar";
-            this.Fechar.Size = new System.Drawing.Size(26, 43);
+            this.Fechar.Size = new System.Drawing.Size(20, 35);
             this.Fechar.TabIndex = 1;
             this.Fechar.Text = "X";
             this.Fechar.UseVisualStyleBackColor = false;
@@ -264,9 +279,10 @@
             this.Minimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Minimizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Minimizar.ForeColor = System.Drawing.Color.White;
-            this.Minimizar.Location = new System.Drawing.Point(1344, 0);
+            this.Minimizar.Location = new System.Drawing.Point(972, 0);
+            this.Minimizar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Minimizar.Name = "Minimizar";
-            this.Minimizar.Size = new System.Drawing.Size(30, 48);
+            this.Minimizar.Size = new System.Drawing.Size(22, 39);
             this.Minimizar.TabIndex = 0;
             this.Minimizar.Text = "_";
             this.Minimizar.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -275,13 +291,14 @@
             // 
             // SobreNos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1434, 761);
+            this.ClientSize = new System.Drawing.Size(1040, 618);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.gradientPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "SobreNos";
             this.Text = "Sobrenós";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
