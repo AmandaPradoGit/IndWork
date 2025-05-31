@@ -32,19 +32,11 @@
             this.gradientPanel1 = new GradientPanel();
             this.btnSobreNós = new System.Windows.Forms.LinkLabel();
             this.btnAjuda = new System.Windows.Forms.LinkLabel();
-            this.button3 = new System.Windows.Forms.Button();
             this.Fechar = new System.Windows.Forms.Button();
             this.Minimizar = new System.Windows.Forms.Button();
             this.gradientPanel2 = new GradientPanel();
-            this.btnFacebook = new System.Windows.Forms.Button();
-            this.btnInstagram = new System.Windows.Forms.Button();
-            this.btnLinkedIn = new System.Windows.Forms.Button();
-            this.btnEmail = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.roundedPanel9 = new RoundedPanel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label19 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
@@ -61,13 +53,11 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.roundedButton1 = new RoundedButton();
             this.btncadPrestador = new RoundedButton();
-            this.roundedPicture1 = new Acelera2025.Ferramentas.RoundedPicture();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.roundedPanel2 = new RoundedPanel();
             this.txtPesquisar = new System.Windows.Forms.TextBox();
-            this.btnPesquisar = new System.Windows.Forms.Button();
             this.label13 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.roundedPanel1 = new RoundedPanel();
@@ -76,10 +66,22 @@
             this.linkLabel3 = new System.Windows.Forms.LinkLabel();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.roundedPicture1 = new Acelera2025.Ferramentas.RoundedPicture();
+            this.btnPesquisar = new System.Windows.Forms.Button();
+            this.btnFacebook = new System.Windows.Forms.Button();
+            this.btnInstagram = new System.Windows.Forms.Button();
+            this.btnLinkedIn = new System.Windows.Forms.Button();
+            this.btnEmail = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.gradientPanel1.SuspendLayout();
             this.gradientPanel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.roundedPanel9.SuspendLayout();
+            this.roundedPanel2.SuspendLayout();
+            this.roundedPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.roundedPicture1)).BeginInit();
@@ -98,9 +100,9 @@
             this.gradientPanel1.EndColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(4)))), ((int)(((byte)(115)))));
             this.gradientPanel1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Horizontal;
             this.gradientPanel1.Location = new System.Drawing.Point(0, 0);
-            this.gradientPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gradientPanel1.Margin = new System.Windows.Forms.Padding(2);
             this.gradientPanel1.Name = "gradientPanel1";
-            this.gradientPanel1.Size = new System.Drawing.Size(1115, 41);
+            this.gradientPanel1.Size = new System.Drawing.Size(1075, 41);
             this.gradientPanel1.StartColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.gradientPanel1.TabIndex = 4;
             // 
@@ -113,7 +115,7 @@
             this.btnSobreNós.Font = new System.Drawing.Font("Myanmar Text", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSobreNós.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
             this.btnSobreNós.LinkColor = System.Drawing.Color.White;
-            this.btnSobreNós.Location = new System.Drawing.Point(977, 14);
+            this.btnSobreNós.Location = new System.Drawing.Point(937, 14);
             this.btnSobreNós.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.btnSobreNós.Name = "btnSobreNós";
             this.btnSobreNós.Size = new System.Drawing.Size(62, 21);
@@ -131,7 +133,7 @@
             this.btnAjuda.Font = new System.Drawing.Font("Myanmar Text", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAjuda.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
             this.btnAjuda.LinkColor = System.Drawing.Color.White;
-            this.btnAjuda.Location = new System.Drawing.Point(907, 14);
+            this.btnAjuda.Location = new System.Drawing.Point(867, 14);
             this.btnAjuda.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.btnAjuda.Name = "btnAjuda";
             this.btnAjuda.Size = new System.Drawing.Size(41, 21);
@@ -139,20 +141,6 @@
             this.btnAjuda.TabStop = true;
             this.btnAjuda.Text = "Ajuda";
             this.btnAjuda.VisitedLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.Transparent;
-            this.button3.BackgroundImage = global::IndWork.Properties.Resources.IndWork;
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(17, 15);
-            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(76, 15);
-            this.button3.TabIndex = 3;
-            this.button3.UseVisualStyleBackColor = false;
             // 
             // Fechar
             // 
@@ -162,13 +150,14 @@
             this.Fechar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Fechar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Fechar.ForeColor = System.Drawing.Color.White;
-            this.Fechar.Location = new System.Drawing.Point(1085, 4);
-            this.Fechar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Fechar.Location = new System.Drawing.Point(1045, 4);
+            this.Fechar.Margin = new System.Windows.Forms.Padding(2);
             this.Fechar.Name = "Fechar";
             this.Fechar.Size = new System.Drawing.Size(20, 35);
             this.Fechar.TabIndex = 1;
             this.Fechar.Text = "X";
             this.Fechar.UseVisualStyleBackColor = false;
+            this.Fechar.Click += new System.EventHandler(this.Fechar_Click);
             // 
             // Minimizar
             // 
@@ -178,8 +167,8 @@
             this.Minimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Minimizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Minimizar.ForeColor = System.Drawing.Color.White;
-            this.Minimizar.Location = new System.Drawing.Point(1048, 0);
-            this.Minimizar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Minimizar.Location = new System.Drawing.Point(1008, 0);
+            this.Minimizar.Margin = new System.Windows.Forms.Padding(2);
             this.Minimizar.Name = "Minimizar";
             this.Minimizar.Size = new System.Drawing.Size(22, 39);
             this.Minimizar.TabIndex = 0;
@@ -197,86 +186,12 @@
             this.gradientPanel2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.gradientPanel2.EndColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(4)))), ((int)(((byte)(115)))));
             this.gradientPanel2.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Horizontal;
-            this.gradientPanel2.Location = new System.Drawing.Point(0, 524);
-            this.gradientPanel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gradientPanel2.Location = new System.Drawing.Point(0, 507);
+            this.gradientPanel2.Margin = new System.Windows.Forms.Padding(2);
             this.gradientPanel2.Name = "gradientPanel2";
-            this.gradientPanel2.Size = new System.Drawing.Size(1115, 54);
+            this.gradientPanel2.Size = new System.Drawing.Size(1075, 54);
             this.gradientPanel2.StartColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.gradientPanel2.TabIndex = 5;
-            // 
-            // btnFacebook
-            // 
-            this.btnFacebook.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnFacebook.BackColor = System.Drawing.Color.Transparent;
-            this.btnFacebook.BackgroundImage = global::IndWork.Properties.Resources.facebook__2_;
-            this.btnFacebook.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnFacebook.FlatAppearance.BorderSize = 0;
-            this.btnFacebook.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFacebook.Location = new System.Drawing.Point(1077, 14);
-            this.btnFacebook.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.btnFacebook.Name = "btnFacebook";
-            this.btnFacebook.Size = new System.Drawing.Size(29, 30);
-            this.btnFacebook.TabIndex = 8;
-            this.btnFacebook.UseVisualStyleBackColor = false;
-            // 
-            // btnInstagram
-            // 
-            this.btnInstagram.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnInstagram.BackColor = System.Drawing.Color.Transparent;
-            this.btnInstagram.BackgroundImage = global::IndWork.Properties.Resources.instagram_logo;
-            this.btnInstagram.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnInstagram.FlatAppearance.BorderSize = 0;
-            this.btnInstagram.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnInstagram.Location = new System.Drawing.Point(1036, 14);
-            this.btnInstagram.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.btnInstagram.Name = "btnInstagram";
-            this.btnInstagram.Size = new System.Drawing.Size(29, 30);
-            this.btnInstagram.TabIndex = 7;
-            this.btnInstagram.UseVisualStyleBackColor = false;
-            // 
-            // btnLinkedIn
-            // 
-            this.btnLinkedIn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnLinkedIn.BackColor = System.Drawing.Color.Transparent;
-            this.btnLinkedIn.BackgroundImage = global::IndWork.Properties.Resources.LinkedIn__2_;
-            this.btnLinkedIn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnLinkedIn.FlatAppearance.BorderSize = 0;
-            this.btnLinkedIn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLinkedIn.Location = new System.Drawing.Point(996, 14);
-            this.btnLinkedIn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.btnLinkedIn.Name = "btnLinkedIn";
-            this.btnLinkedIn.Size = new System.Drawing.Size(29, 30);
-            this.btnLinkedIn.TabIndex = 6;
-            this.btnLinkedIn.UseVisualStyleBackColor = false;
-            // 
-            // btnEmail
-            // 
-            this.btnEmail.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnEmail.BackColor = System.Drawing.Color.Transparent;
-            this.btnEmail.BackgroundImage = global::IndWork.Properties.Resources.opened_envelope;
-            this.btnEmail.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnEmail.FlatAppearance.BorderSize = 0;
-            this.btnEmail.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEmail.Location = new System.Drawing.Point(953, 11);
-            this.btnEmail.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.btnEmail.Name = "btnEmail";
-            this.btnEmail.Size = new System.Drawing.Size(29, 30);
-            this.btnEmail.TabIndex = 5;
-            this.btnEmail.UseVisualStyleBackColor = false;
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.Transparent;
-            this.button5.BackgroundImage = global::IndWork.Properties.Resources.IndWork;
-            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Location = new System.Drawing.Point(17, 19);
-            this.button5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(76, 15);
-            this.button5.TabIndex = 4;
-            this.button5.UseVisualStyleBackColor = false;
             // 
             // panel1
             // 
@@ -290,9 +205,9 @@
             this.panel1.Controls.Add(this.roundedPanel1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 41);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1115, 483);
+            this.panel1.Size = new System.Drawing.Size(1075, 466);
             this.panel1.TabIndex = 6;
             // 
             // roundedPanel9
@@ -325,33 +240,11 @@
             this.roundedPanel9.Controls.Add(this.label2);
             this.roundedPanel9.Controls.Add(this.label1);
             this.roundedPanel9.Controls.Add(this.label9);
-            this.roundedPanel9.Location = new System.Drawing.Point(601, 2);
-            this.roundedPanel9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.roundedPanel9.Location = new System.Drawing.Point(562, 2);
+            this.roundedPanel9.Margin = new System.Windows.Forms.Padding(2);
             this.roundedPanel9.Name = "roundedPanel9";
             this.roundedPanel9.Size = new System.Drawing.Size(494, 741);
             this.roundedPanel9.TabIndex = 38;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::IndWork.Properties.Resources.pin;
-            this.pictureBox2.Location = new System.Drawing.Point(35, 324);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(31, 34);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 51;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::IndWork.Properties.Resources.telephone_receiver;
-            this.pictureBox1.Location = new System.Drawing.Point(35, 144);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(31, 34);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 50;
-            this.pictureBox1.TabStop = false;
             // 
             // label19
             // 
@@ -494,7 +387,7 @@
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.panel3.Location = new System.Drawing.Point(66, 357);
-            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(358, 2);
             this.panel3.TabIndex = 35;
@@ -503,7 +396,7 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.panel2.Location = new System.Drawing.Point(66, 178);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(358, 2);
             this.panel2.TabIndex = 34;
@@ -518,7 +411,7 @@
             this.roundedButton1.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.roundedButton1.ForeColor = System.Drawing.Color.White;
             this.roundedButton1.Location = new System.Drawing.Point(289, 697);
-            this.roundedButton1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.roundedButton1.Margin = new System.Windows.Forms.Padding(2);
             this.roundedButton1.Name = "roundedButton1";
             this.roundedButton1.Size = new System.Drawing.Size(177, 42);
             this.roundedButton1.TabIndex = 33;
@@ -534,24 +427,13 @@
             this.btncadPrestador.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btncadPrestador.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btncadPrestador.ForeColor = System.Drawing.Color.White;
-            this.btncadPrestador.Location = new System.Drawing.Point(38, 696);
-            this.btncadPrestador.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btncadPrestador.Location = new System.Drawing.Point(38, 697);
+            this.btncadPrestador.Margin = new System.Windows.Forms.Padding(2);
             this.btncadPrestador.Name = "btncadPrestador";
             this.btncadPrestador.Size = new System.Drawing.Size(177, 42);
             this.btncadPrestador.TabIndex = 32;
             this.btncadPrestador.Text = "Atualizar Informações";
             this.btncadPrestador.UseVisualStyleBackColor = false;
-            // 
-            // roundedPicture1
-            // 
-            this.roundedPicture1.BorderColor = System.Drawing.Color.Black;
-            this.roundedPicture1.BorderRadius = 20;
-            this.roundedPicture1.BorderSize = 2;
-            this.roundedPicture1.Location = new System.Drawing.Point(38, 30);
-            this.roundedPicture1.Name = "roundedPicture1";
-            this.roundedPicture1.Size = new System.Drawing.Size(76, 73);
-            this.roundedPicture1.TabIndex = 31;
-            this.roundedPicture1.TabStop = false;
             // 
             // label2
             // 
@@ -596,8 +478,8 @@
             this.roundedPanel2.BorderSize = 3;
             this.roundedPanel2.Controls.Add(this.txtPesquisar);
             this.roundedPanel2.Controls.Add(this.btnPesquisar);
-            this.roundedPanel2.Location = new System.Drawing.Point(39, 86);
-            this.roundedPanel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.roundedPanel2.Location = new System.Drawing.Point(17, 146);
+            this.roundedPanel2.Margin = new System.Windows.Forms.Padding(2);
             this.roundedPanel2.Name = "roundedPanel2";
             this.roundedPanel2.Size = new System.Drawing.Size(476, 30);
             this.roundedPanel2.TabIndex = 37;
@@ -608,31 +490,17 @@
             this.txtPesquisar.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtPesquisar.Font = new System.Drawing.Font("Myanmar Text", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPesquisar.Location = new System.Drawing.Point(11, 2);
-            this.txtPesquisar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtPesquisar.Margin = new System.Windows.Forms.Padding(2);
             this.txtPesquisar.Name = "txtPesquisar";
             this.txtPesquisar.Size = new System.Drawing.Size(426, 26);
             this.txtPesquisar.TabIndex = 6;
-            // 
-            // btnPesquisar
-            // 
-            this.btnPesquisar.BackColor = System.Drawing.Color.Transparent;
-            this.btnPesquisar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnPesquisar.BackgroundImage")));
-            this.btnPesquisar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnPesquisar.FlatAppearance.BorderSize = 0;
-            this.btnPesquisar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPesquisar.Location = new System.Drawing.Point(441, 3);
-            this.btnPesquisar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.btnPesquisar.Name = "btnPesquisar";
-            this.btnPesquisar.Size = new System.Drawing.Size(23, 25);
-            this.btnPesquisar.TabIndex = 5;
-            this.btnPesquisar.UseVisualStyleBackColor = false;
             // 
             // label13
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Myanmar Text", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.label13.Location = new System.Drawing.Point(38, 58);
+            this.label13.Location = new System.Drawing.Point(16, 117);
             this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(137, 27);
@@ -644,7 +512,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Myanmar Text", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.label4.Location = new System.Drawing.Point(37, 23);
+            this.label4.Location = new System.Drawing.Point(15, 83);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(202, 34);
@@ -663,8 +531,8 @@
             this.roundedPanel1.Controls.Add(this.linkLabel3);
             this.roundedPanel1.Controls.Add(this.linkLabel2);
             this.roundedPanel1.Controls.Add(this.linkLabel1);
-            this.roundedPanel1.Location = new System.Drawing.Point(39, 157);
-            this.roundedPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.roundedPanel1.Location = new System.Drawing.Point(2, 217);
+            this.roundedPanel1.Margin = new System.Windows.Forms.Padding(2);
             this.roundedPanel1.Name = "roundedPanel1";
             this.roundedPanel1.Size = new System.Drawing.Size(409, 428);
             this.roundedPanel1.TabIndex = 34;
@@ -729,16 +597,153 @@
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Resultado";
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::IndWork.Properties.Resources.pin;
+            this.pictureBox2.Location = new System.Drawing.Point(35, 324);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(31, 34);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 51;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::IndWork.Properties.Resources.telephone_receiver;
+            this.pictureBox1.Location = new System.Drawing.Point(35, 144);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(31, 34);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 50;
+            this.pictureBox1.TabStop = false;
+            // 
+            // roundedPicture1
+            // 
+            this.roundedPicture1.BorderColor = System.Drawing.Color.Black;
+            this.roundedPicture1.BorderRadius = 20;
+            this.roundedPicture1.BorderSize = 2;
+            this.roundedPicture1.Location = new System.Drawing.Point(38, 30);
+            this.roundedPicture1.Name = "roundedPicture1";
+            this.roundedPicture1.Size = new System.Drawing.Size(76, 73);
+            this.roundedPicture1.TabIndex = 31;
+            this.roundedPicture1.TabStop = false;
+            // 
+            // btnPesquisar
+            // 
+            this.btnPesquisar.BackColor = System.Drawing.Color.Transparent;
+            this.btnPesquisar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnPesquisar.BackgroundImage")));
+            this.btnPesquisar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnPesquisar.FlatAppearance.BorderSize = 0;
+            this.btnPesquisar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPesquisar.Location = new System.Drawing.Point(441, 3);
+            this.btnPesquisar.Margin = new System.Windows.Forms.Padding(2);
+            this.btnPesquisar.Name = "btnPesquisar";
+            this.btnPesquisar.Size = new System.Drawing.Size(23, 25);
+            this.btnPesquisar.TabIndex = 5;
+            this.btnPesquisar.UseVisualStyleBackColor = false;
+            // 
+            // btnFacebook
+            // 
+            this.btnFacebook.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnFacebook.BackColor = System.Drawing.Color.Transparent;
+            this.btnFacebook.BackgroundImage = global::IndWork.Properties.Resources.facebook__2_;
+            this.btnFacebook.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnFacebook.FlatAppearance.BorderSize = 0;
+            this.btnFacebook.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFacebook.Location = new System.Drawing.Point(1037, 14);
+            this.btnFacebook.Margin = new System.Windows.Forms.Padding(2);
+            this.btnFacebook.Name = "btnFacebook";
+            this.btnFacebook.Size = new System.Drawing.Size(29, 30);
+            this.btnFacebook.TabIndex = 8;
+            this.btnFacebook.UseVisualStyleBackColor = false;
+            // 
+            // btnInstagram
+            // 
+            this.btnInstagram.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnInstagram.BackColor = System.Drawing.Color.Transparent;
+            this.btnInstagram.BackgroundImage = global::IndWork.Properties.Resources.instagram_logo;
+            this.btnInstagram.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnInstagram.FlatAppearance.BorderSize = 0;
+            this.btnInstagram.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnInstagram.Location = new System.Drawing.Point(996, 14);
+            this.btnInstagram.Margin = new System.Windows.Forms.Padding(2);
+            this.btnInstagram.Name = "btnInstagram";
+            this.btnInstagram.Size = new System.Drawing.Size(29, 30);
+            this.btnInstagram.TabIndex = 7;
+            this.btnInstagram.UseVisualStyleBackColor = false;
+            // 
+            // btnLinkedIn
+            // 
+            this.btnLinkedIn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnLinkedIn.BackColor = System.Drawing.Color.Transparent;
+            this.btnLinkedIn.BackgroundImage = global::IndWork.Properties.Resources.LinkedIn__2_;
+            this.btnLinkedIn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnLinkedIn.FlatAppearance.BorderSize = 0;
+            this.btnLinkedIn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLinkedIn.Location = new System.Drawing.Point(956, 14);
+            this.btnLinkedIn.Margin = new System.Windows.Forms.Padding(2);
+            this.btnLinkedIn.Name = "btnLinkedIn";
+            this.btnLinkedIn.Size = new System.Drawing.Size(29, 30);
+            this.btnLinkedIn.TabIndex = 6;
+            this.btnLinkedIn.UseVisualStyleBackColor = false;
+            // 
+            // btnEmail
+            // 
+            this.btnEmail.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnEmail.BackColor = System.Drawing.Color.Transparent;
+            this.btnEmail.BackgroundImage = global::IndWork.Properties.Resources.opened_envelope;
+            this.btnEmail.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnEmail.FlatAppearance.BorderSize = 0;
+            this.btnEmail.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEmail.Location = new System.Drawing.Point(913, 11);
+            this.btnEmail.Margin = new System.Windows.Forms.Padding(2);
+            this.btnEmail.Name = "btnEmail";
+            this.btnEmail.Size = new System.Drawing.Size(29, 30);
+            this.btnEmail.TabIndex = 5;
+            this.btnEmail.UseVisualStyleBackColor = false;
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.Transparent;
+            this.button5.BackgroundImage = global::IndWork.Properties.Resources.IndWork;
+            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Location = new System.Drawing.Point(17, 19);
+            this.button5.Margin = new System.Windows.Forms.Padding(2);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(76, 15);
+            this.button5.TabIndex = 4;
+            this.button5.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.Transparent;
+            this.button3.BackgroundImage = global::IndWork.Properties.Resources.IndWork;
+            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Location = new System.Drawing.Point(17, 15);
+            this.button3.Margin = new System.Windows.Forms.Padding(2);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(76, 15);
+            this.button3.TabIndex = 3;
+            this.button3.UseVisualStyleBackColor = false;
+            // 
             // GerenciarContratantes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(1115, 578);
+            this.ClientSize = new System.Drawing.Size(1075, 561);
+            this.ControlBox = false;
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.gradientPanel2);
             this.Controls.Add(this.gradientPanel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Name = "GerenciarContratantes";
             this.Text = "GerenciarContratantes";
@@ -750,6 +755,10 @@
             this.panel1.PerformLayout();
             this.roundedPanel9.ResumeLayout(false);
             this.roundedPanel9.PerformLayout();
+            this.roundedPanel2.ResumeLayout(false);
+            this.roundedPanel2.PerformLayout();
+            this.roundedPanel1.ResumeLayout(false);
+            this.roundedPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.roundedPicture1)).EndInit();

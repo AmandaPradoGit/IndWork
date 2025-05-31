@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace IndWork.Telas
 {
-    public partial class SobreNos: Form
+    public partial class Avaliacao: Form
     {
-        public SobreNos()
+        public Avaliacao()
         {
             InitializeComponent();
         }
 
-        private void gradientPanel1_Paint(object sender, PaintEventArgs e)
+        private void label9_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void Fechar_Click(object sender, EventArgs e)
@@ -32,6 +32,12 @@ namespace IndWork.Telas
             this.WindowState = FormWindowState.Minimized;
         }
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Principal p = new Principal();
+            p.Show();
+            this.Hide();
+        }
 
         private void btnAjuda_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
@@ -40,16 +46,11 @@ namespace IndWork.Telas
             this.Hide();
         }
 
-        private void btnIndWork_Click(object sender, EventArgs e)
-        {
-            Principal p = new Principal();
-            p.Show();
-            this.Hide();
-        }
-
         private void btnSobreNós_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            SobreNos sobreNos = new SobreNos();
+            sobreNos.Show();
+            this.Hide();
         }
     }
 }
