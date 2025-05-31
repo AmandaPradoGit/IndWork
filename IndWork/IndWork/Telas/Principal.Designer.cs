@@ -101,7 +101,7 @@
             this.panel1.Controls.Add(this.btncadPrestador);
             this.panel1.Controls.Add(this.label14);
             this.panel1.Location = new System.Drawing.Point(0, 41);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1221, 1038);
             this.panel1.TabIndex = 3;
@@ -115,7 +115,7 @@
             this.roundedPanel1.Controls.Add(this.txtPesquisar);
             this.roundedPanel1.Controls.Add(this.btnPesquisar);
             this.roundedPanel1.Location = new System.Drawing.Point(145, 238);
-            this.roundedPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.roundedPanel1.Margin = new System.Windows.Forms.Padding(2);
             this.roundedPanel1.Name = "roundedPanel1";
             this.roundedPanel1.Size = new System.Drawing.Size(604, 30);
             this.roundedPanel1.TabIndex = 4;
@@ -127,7 +127,7 @@
             this.txtPesquisar.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtPesquisar.Font = new System.Drawing.Font("Myanmar Text", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPesquisar.Location = new System.Drawing.Point(10, 2);
-            this.txtPesquisar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtPesquisar.Margin = new System.Windows.Forms.Padding(2);
             this.txtPesquisar.Name = "txtPesquisar";
             this.txtPesquisar.Size = new System.Drawing.Size(564, 26);
             this.txtPesquisar.TabIndex = 6;
@@ -140,7 +140,7 @@
             this.btnPesquisar.FlatAppearance.BorderSize = 0;
             this.btnPesquisar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPesquisar.Location = new System.Drawing.Point(578, 2);
-            this.btnPesquisar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnPesquisar.Margin = new System.Windows.Forms.Padding(2);
             this.btnPesquisar.Name = "btnPesquisar";
             this.btnPesquisar.Size = new System.Drawing.Size(23, 25);
             this.btnPesquisar.TabIndex = 5;
@@ -158,7 +158,7 @@
             this.gradientPanel2.EndColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(4)))), ((int)(((byte)(115)))));
             this.gradientPanel2.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Horizontal;
             this.gradientPanel2.Location = new System.Drawing.Point(0, 1036);
-            this.gradientPanel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gradientPanel2.Margin = new System.Windows.Forms.Padding(2);
             this.gradientPanel2.Name = "gradientPanel2";
             this.gradientPanel2.Size = new System.Drawing.Size(1204, 54);
             this.gradientPanel2.StartColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
@@ -173,7 +173,7 @@
             this.btnFacebook.FlatAppearance.BorderSize = 0;
             this.btnFacebook.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFacebook.Location = new System.Drawing.Point(1166, 14);
-            this.btnFacebook.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnFacebook.Margin = new System.Windows.Forms.Padding(2);
             this.btnFacebook.Name = "btnFacebook";
             this.btnFacebook.Size = new System.Drawing.Size(29, 30);
             this.btnFacebook.TabIndex = 8;
@@ -188,7 +188,7 @@
             this.btnInstagram.FlatAppearance.BorderSize = 0;
             this.btnInstagram.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnInstagram.Location = new System.Drawing.Point(1125, 14);
-            this.btnInstagram.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnInstagram.Margin = new System.Windows.Forms.Padding(2);
             this.btnInstagram.Name = "btnInstagram";
             this.btnInstagram.Size = new System.Drawing.Size(29, 30);
             this.btnInstagram.TabIndex = 7;
@@ -203,7 +203,7 @@
             this.btnLinkedIn.FlatAppearance.BorderSize = 0;
             this.btnLinkedIn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLinkedIn.Location = new System.Drawing.Point(1085, 14);
-            this.btnLinkedIn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnLinkedIn.Margin = new System.Windows.Forms.Padding(2);
             this.btnLinkedIn.Name = "btnLinkedIn";
             this.btnLinkedIn.Size = new System.Drawing.Size(29, 30);
             this.btnLinkedIn.TabIndex = 6;
@@ -218,7 +218,7 @@
             this.btnEmail.FlatAppearance.BorderSize = 0;
             this.btnEmail.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEmail.Location = new System.Drawing.Point(1043, 11);
-            this.btnEmail.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnEmail.Margin = new System.Windows.Forms.Padding(2);
             this.btnEmail.Name = "btnEmail";
             this.btnEmail.Size = new System.Drawing.Size(29, 30);
             this.btnEmail.TabIndex = 5;
@@ -233,7 +233,7 @@
             this.button5.FlatAppearance.BorderSize = 0;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Location = new System.Drawing.Point(17, 19);
-            this.button5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button5.Margin = new System.Windows.Forms.Padding(2);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(76, 15);
             this.button5.TabIndex = 4;
@@ -245,7 +245,7 @@
             this.panel3.BackgroundImage = global::IndWork.Properties.Resources.ImagemInicial;
             this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.panel3.Location = new System.Drawing.Point(688, 15);
-            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(524, 460);
             this.panel3.TabIndex = 2;
@@ -261,7 +261,7 @@
             this.btncadContratante.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btncadContratante.ForeColor = System.Drawing.Color.White;
             this.btncadContratante.Location = new System.Drawing.Point(506, 376);
-            this.btncadContratante.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btncadContratante.Margin = new System.Windows.Forms.Padding(2);
             this.btncadContratante.Name = "btncadContratante";
             this.btncadContratante.Size = new System.Drawing.Size(229, 42);
             this.btncadContratante.TabIndex = 6;
@@ -273,7 +273,7 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.panel2.Location = new System.Drawing.Point(145, 146);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(470, 2);
             this.panel2.TabIndex = 1;
@@ -295,7 +295,7 @@
             // panel4
             // 
             this.panel4.Location = new System.Drawing.Point(1037, 911);
-            this.panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(150, 125);
             this.panel4.TabIndex = 19;
@@ -345,7 +345,7 @@
             this.panelCategorias.Controls.Add(this.btnMecanica);
             this.panelCategorias.Controls.Add(this.btnConstrucao);
             this.panelCategorias.Location = new System.Drawing.Point(34, 556);
-            this.panelCategorias.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelCategorias.Margin = new System.Windows.Forms.Padding(2);
             this.panelCategorias.Name = "panelCategorias";
             this.panelCategorias.Size = new System.Drawing.Size(1112, 238);
             this.panelCategorias.TabIndex = 8;
@@ -428,7 +428,7 @@
             this.btnConfeitaria.BorderSize = 0;
             this.btnConfeitaria.Image = global::IndWork.Properties.Resources.Confectionery;
             this.btnConfeitaria.Location = new System.Drawing.Point(922, 44);
-            this.btnConfeitaria.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnConfeitaria.Margin = new System.Windows.Forms.Padding(2);
             this.btnConfeitaria.Name = "btnConfeitaria";
             this.btnConfeitaria.Size = new System.Drawing.Size(124, 135);
             this.btnConfeitaria.TabIndex = 4;
@@ -444,7 +444,7 @@
             this.btnJardinagem.BorderSize = 0;
             this.btnJardinagem.Image = global::IndWork.Properties.Resources.Watering_Can;
             this.btnJardinagem.Location = new System.Drawing.Point(680, 44);
-            this.btnJardinagem.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnJardinagem.Margin = new System.Windows.Forms.Padding(2);
             this.btnJardinagem.Name = "btnJardinagem";
             this.btnJardinagem.Size = new System.Drawing.Size(124, 135);
             this.btnJardinagem.TabIndex = 3;
@@ -459,7 +459,7 @@
             this.btnCostura.BorderSize = 0;
             this.btnCostura.Image = global::IndWork.Properties.Resources.Sewing_Machine;
             this.btnCostura.Location = new System.Drawing.Point(485, 44);
-            this.btnCostura.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCostura.Margin = new System.Windows.Forms.Padding(2);
             this.btnCostura.Name = "btnCostura";
             this.btnCostura.Size = new System.Drawing.Size(124, 135);
             this.btnCostura.TabIndex = 2;
@@ -474,7 +474,7 @@
             this.btnMecanica.BorderSize = 0;
             this.btnMecanica.Image = global::IndWork.Properties.Resources.Tools;
             this.btnMecanica.Location = new System.Drawing.Point(269, 44);
-            this.btnMecanica.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnMecanica.Margin = new System.Windows.Forms.Padding(2);
             this.btnMecanica.Name = "btnMecanica";
             this.btnMecanica.Size = new System.Drawing.Size(124, 135);
             this.btnMecanica.TabIndex = 1;
@@ -488,7 +488,7 @@
             this.btnConstrucao.BorderSize = 0;
             this.btnConstrucao.Image = global::IndWork.Properties.Resources.Brick_Wall;
             this.btnConstrucao.Location = new System.Drawing.Point(66, 44);
-            this.btnConstrucao.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnConstrucao.Margin = new System.Windows.Forms.Padding(2);
             this.btnConstrucao.Name = "btnConstrucao";
             this.btnConstrucao.Size = new System.Drawing.Size(124, 135);
             this.btnConstrucao.TabIndex = 0;
@@ -517,7 +517,7 @@
             this.btngerenciarContratante.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btngerenciarContratante.ForeColor = System.Drawing.Color.White;
             this.btngerenciarContratante.Location = new System.Drawing.Point(500, 864);
-            this.btngerenciarContratante.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btngerenciarContratante.Margin = new System.Windows.Forms.Padding(2);
             this.btngerenciarContratante.Name = "btngerenciarContratante";
             this.btngerenciarContratante.Size = new System.Drawing.Size(229, 42);
             this.btngerenciarContratante.TabIndex = 18;
@@ -547,7 +547,7 @@
             this.btngerenciarPrestadores.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btngerenciarPrestadores.ForeColor = System.Drawing.Color.White;
             this.btngerenciarPrestadores.Location = new System.Drawing.Point(130, 864);
-            this.btngerenciarPrestadores.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btngerenciarPrestadores.Margin = new System.Windows.Forms.Padding(2);
             this.btngerenciarPrestadores.Name = "btngerenciarPrestadores";
             this.btngerenciarPrestadores.Size = new System.Drawing.Size(229, 42);
             this.btngerenciarPrestadores.TabIndex = 17;
@@ -565,7 +565,7 @@
             this.btncadPrestador.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btncadPrestador.ForeColor = System.Drawing.Color.White;
             this.btncadPrestador.Location = new System.Drawing.Point(145, 376);
-            this.btncadPrestador.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btncadPrestador.Margin = new System.Windows.Forms.Padding(2);
             this.btncadPrestador.Name = "btncadPrestador";
             this.btncadPrestador.Size = new System.Drawing.Size(229, 42);
             this.btncadPrestador.TabIndex = 5;
@@ -597,7 +597,7 @@
             this.gradientPanel1.EndColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(4)))), ((int)(((byte)(115)))));
             this.gradientPanel1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Horizontal;
             this.gradientPanel1.Location = new System.Drawing.Point(0, 0);
-            this.gradientPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gradientPanel1.Margin = new System.Windows.Forms.Padding(2);
             this.gradientPanel1.Name = "gradientPanel1";
             this.gradientPanel1.Size = new System.Drawing.Size(1040, 41);
             this.gradientPanel1.StartColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
@@ -649,7 +649,7 @@
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Location = new System.Drawing.Point(17, 15);
-            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(76, 15);
             this.button3.TabIndex = 3;
@@ -664,7 +664,7 @@
             this.Fechar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Fechar.ForeColor = System.Drawing.Color.White;
             this.Fechar.Location = new System.Drawing.Point(1011, 4);
-            this.Fechar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Fechar.Margin = new System.Windows.Forms.Padding(2);
             this.Fechar.Name = "Fechar";
             this.Fechar.Size = new System.Drawing.Size(20, 35);
             this.Fechar.TabIndex = 1;
@@ -681,7 +681,7 @@
             this.Minimizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Minimizar.ForeColor = System.Drawing.Color.White;
             this.Minimizar.Location = new System.Drawing.Point(973, 0);
-            this.Minimizar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Minimizar.Margin = new System.Windows.Forms.Padding(2);
             this.Minimizar.Name = "Minimizar";
             this.Minimizar.Size = new System.Drawing.Size(22, 39);
             this.Minimizar.TabIndex = 0;
@@ -698,7 +698,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.gradientPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Principal";
             this.Text = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

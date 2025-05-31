@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -46,6 +47,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Codigo\Dominio\Entidades\Enums\Categoria.cs" />
+    <Compile Include="Codigo\Dominio\Entidades\EntidadeBase.cs" />
+    <Compile Include="Codigo\Dominio\Entidades\Pessoa.cs" />
+    <Compile Include="Codigo\Dominio\Entidades\Prestador.cs" />
+    <Compile Include="Codigo\Infraestrutura\Auxiliares\ValidadorCpf.cs" />
+    <Compile Include="Codigo\Infraestrutura\Auxiliares\ValidadorEmail.cs" />
+    <Compile Include="Codigo\Infraestrutura\Repositorios\PrestadorRepositorio.cs" />
+    <Compile Include="Codigo\Infraestrutura\ScriptsSql\AuxiliarRecursos.cs" />
+    <Compile Include="Codigo\Infraestrutura\Persistencia\ContextoDeDados.cs" />
+    <Compile Include="Codigo\Infraestrutura\Repositorios\PessoaRepositorio.cs" />
+    <Compile Include="Codigo\Infraestrutura\Repositorios\RepositorioBase.cs" />
+    <Compile Include="Codigo\Infraestrutura\ScriptsSql\GerenciarScripts.cs" />
+    <Compile Include="Codigo\Servicos\BaseServico.cs" />
+    <Compile Include="Codigo\Servicos\PessoaServico.cs" />
     <Compile Include="Telas\Ajuda.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -236,6 +251,14 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Business.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Codigo\Infraestrutura\ScriptsSql\AtualizarPessoa.sql" />
+    <EmbeddedResource Include="Codigo\Infraestrutura\ScriptsSql\InserirPessoa.sql" />
+    <EmbeddedResource Include="Codigo\Infraestrutura\ScriptsSql\ListarPessoas.sql" />
+    <EmbeddedResource Include="Codigo\Infraestrutura\ScriptsSql\ObtemPessoaPorId.sql" />
+    <EmbeddedResource Include="Codigo\Infraestrutura\ScriptsSql\RemoverPessoa.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
