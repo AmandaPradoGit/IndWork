@@ -27,6 +27,31 @@
             return ObtemScript("ListarPessoas.sql");
         }
 
+        public static string ObtemScriptInserirPrestador()
+        {
+            return ObtemScript("InserirPrestador.sql");
+        }
+
+        public static string ObtemScriptAtualizarPrestador()
+        {
+            return ObtemScript("AtualizarPrestador.sql");
+        }
+
+        public static string ObtemScriptRemoverPrestador()
+        {
+            return ObtemScript("RemoverPrestador.sql");
+        }
+
+        public static string ObtemScriptObterPrestadorPorId()
+        {
+            return ObtemScript("ObtemPrestadorPorId.sql");
+        }
+
+        public static string ObtemScriptListarPrestadores()
+        {
+            return ObtemScript("ListarPrestadores.sql");
+        }
+
         private static string ObtemScript(string nomeScript)
         {
             return AuxiliarRecursos.ObtemRecursoComoString(typeof(GerenciarScripts),nomeScript);

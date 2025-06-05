@@ -12,6 +12,21 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -54,6 +69,8 @@
     <Compile Include="Codigo\Dominio\Entidades\Prestador.cs" />
     <Compile Include="Codigo\Infraestrutura\Auxiliares\ValidadorCpf.cs" />
     <Compile Include="Codigo\Infraestrutura\Auxiliares\ValidadorEmail.cs" />
+    <Compile Include="Codigo\Infraestrutura\Persistencia\ContextoDeDados - Copy.cs" />
+    <Compile Include="Codigo\Infraestrutura\Persistencia\InicializadorBanco.cs" />
     <Compile Include="Codigo\Infraestrutura\Repositorios\PrestadorRepositorio.cs" />
     <Compile Include="Codigo\Infraestrutura\ScriptsSql\AuxiliarRecursos.cs" />
     <Compile Include="Codigo\Infraestrutura\Persistencia\ContextoDeDados.cs" />
@@ -221,7 +238,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\IndWork.png" />
@@ -280,13 +299,48 @@
   <ItemGroup>
     <None Include="Resources\Business.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Codigo\Infraestrutura\ScriptsSql\RemoverPrestador.sql" />
+  </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Codigo\Infraestrutura\ScriptsSql\AtualizarPessoa.sql" />
     <EmbeddedResource Include="Codigo\Infraestrutura\ScriptsSql\InserirPessoa.sql" />
     <EmbeddedResource Include="Codigo\Infraestrutura\ScriptsSql\ListarPessoas.sql" />
     <EmbeddedResource Include="Codigo\Infraestrutura\ScriptsSql\ObtemPessoaPorId.sql" />
     <EmbeddedResource Include="Codigo\Infraestrutura\ScriptsSql\RemoverPessoa.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Codigo\Infraestrutura\ScriptsSql\InserirPrestador.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Codigo\Infraestrutura\ScriptsSql\ListarPrestadores.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Codigo\Infraestrutura\ScriptsSql\ObtemPrestadorPorId.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Codigo\Infraestrutura\ScriptsSql\AtualizarPrestador.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="IndWork.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="IndWork_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>IndWork.mdf</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -84,6 +84,7 @@ namespace IndWork.Telas
                 return;
             }
 
+            MessageBox.Show("Cadastro realizado com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
             Principal p = new Principal();
             p.Show();
             this.Hide();
