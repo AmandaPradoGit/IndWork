@@ -1,21 +1,61 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using IndWork.dados;
+using IndWork.banco;
+using System;
 using System.Windows.Forms;
+using System.Text.RegularExpressions;
+using System.Threading;
 
 namespace IndWork.Telas
 {
-    public partial class PerfilPrestador: Form
+    public partial class PerfilPrestador : Form
     {
-        public PerfilPrestador()
+        private Prestador prestador;
+
+        public PerfilPrestador(Prestador prestadorSelecionado)
         {
             InitializeComponent();
+
+            if (prestadorSelecionado == null)
+            {
+                MessageBox.Show("Erro ao carregar informações do prestador.");
+                return;
+            }
+
+            prestador = prestadorSelecionado;
+            PreencherDados();
         }
+
+        private void PreencherDados()
+        {
+            lblNome.Text = prestador.Nome;
+            lblEmail.Text = prestador.Email;
+            lblTelefone.Text = prestador.Telefone;
+            lblServico.Text = FormatarNomeServico(prestador.Servico);
+            lblRua.Text = prestador.Rua;
+            lblBairro.Text = prestador.Bairro;
+            lblNum.Text = prestador.Numero.ToString();
+            lblCep.Text = prestador.CEP;
+            lblNota.Refresh();
+
+
+            double media = new AvaliacaoDAO().ObterMediaAvaliacao(prestador.Id);
+            Console.WriteLine($"Média calculada: {media}"); // Depuração
+            lblNota.Text = media.ToString("0.0") + " / 5";
+
+
+        }
+        public void AtualizarNota()
+        {
+            double novaMedia = new AvaliacaoDAO().ObterMediaAvaliacao(prestador.Id);
+            lblNota.Text = novaMedia.ToString("0.0") + " / 5"; 
+        }
+
+        private string FormatarNomeServico(EnumServicos servico)
+        {
+            return Regex.Replace(servico.ToString(), "(?<!^)([A-Z])", " $1");
+        }
+    
+
 
         private void PerfilPrestador_Load(object sender, EventArgs e)
         {
@@ -57,5 +97,22 @@ namespace IndWork.Telas
             p.Show();
             this.Hide();
         }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gradientPanel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Avaliacao avaliacao = new Avaliacao(prestador.Id); 
+            avaliacao.Show();
+        }
+
     }
 }

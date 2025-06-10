@@ -24,3 +24,179 @@ E:\Documentos\Fatec Arquivos\Projeto IndWork\IndWork\IndWork\IndWork\obj\Debug\I
 E:\Documentos\Fatec Arquivos\Projeto IndWork\IndWork\IndWork\IndWork\bin\Debug\IndWork.mdf
 E:\Documentos\Fatec Arquivos\Projeto IndWork\IndWork\IndWork\IndWork\bin\Debug\IndWork_log.ldf
 E:\Documentos\Fatec Arquivos\Projeto IndWork\IndWork\IndWork\IndWork\bin\Debug\App.config
+C:\Users\aluno\Source\Repos\IndWork\IndWork\IndWork\bin\Debug\App.config
+C:\Users\aluno\Source\Repos\IndWork\IndWork\IndWork\bin\Debug\IndWork.mdf
+C:\Users\aluno\Source\Repos\IndWork\IndWork\IndWork\bin\Debug\IndWork_log.ldf
+C:\Users\aluno\Source\Repos\IndWork\IndWork\IndWork\bin\Debug\IndWork.exe.config
+C:\Users\aluno\Source\Repos\IndWork\IndWork\IndWork\bin\Debug\IndWork.exe
+C:\Users\aluno\Source\Repos\IndWork\IndWork\IndWork\bin\Debug\IndWork.pdb
+C:\Users\aluno\Source\Repos\IndWork\IndWork\IndWork\obj\Debug\IndWork.csproj.AssemblyReference.cache
+C:\Users\aluno\Source\Repos\IndWork\IndWork\IndWork\obj\Debug\IndWork.Properties.Resources.resources
+C:\Users\aluno\Source\Repos\IndWork\IndWork\IndWork\obj\Debug\IndWork.Telas.Ajuda.resources
+C:\Users\aluno\Source\Repos\IndWork\IndWork\IndWork\obj\Debug\IndWork.Telas.Avaliacao.resources
+C:\Users\aluno\Source\Repos\IndWork\IndWork\IndWork\obj\Debug\IndWork.Telas.CadastrarContratante.resources
+C:\Users\aluno\Source\Repos\IndWork\IndWork\IndWork\obj\Debug\IndWork.Telas.CadastroPrestador.resources
+C:\Users\aluno\Source\Repos\IndWork\IndWork\IndWork\obj\Debug\IndWork.Telas.CardPesquisa.resources
+C:\Users\aluno\Source\Repos\IndWork\IndWork\IndWork\obj\Debug\IndWork.Telas.Categorias.resources
+C:\Users\aluno\Source\Repos\IndWork\IndWork\IndWork\obj\Debug\IndWork.Telas.Contratacao.resources
+C:\Users\aluno\Source\Repos\IndWork\IndWork\IndWork\obj\Debug\IndWork.Telas.GerenciarContratantes.resources
+C:\Users\aluno\Source\Repos\IndWork\IndWork\IndWork\obj\Debug\IndWork.Telas.GerenciarPrestadores.resources
+C:\Users\aluno\Source\Repos\IndWork\IndWork\IndWork\obj\Debug\IndWork.Telas.PerfilPrestador.resources
+C:\Users\aluno\Source\Repos\IndWork\IndWork\IndWork\obj\Debug\IndWork.Telas.Pesquisa.resources
+C:\Users\aluno\Source\Repos\IndWork\IndWork\IndWork\obj\Debug\IndWork.Principal.resources
+C:\Users\aluno\Source\Repos\IndWork\IndWork\IndWork\obj\Debug\IndWork.Telas.SobreNos.resources
+C:\Users\aluno\Source\Repos\IndWork\IndWork\IndWork\obj\Debug\IndWork.csproj.GenerateResource.cache
+C:\Users\aluno\Source\Repos\IndWork\IndWork\IndWork\obj\Debug\IndWork.csproj.CoreCompileInputs.cache
+C:\Users\aluno\Source\Repos\IndWork\IndWork\IndWork\obj\Debug\IndWork.exe
+C:\Users\aluno\Source\Repos\IndWork\IndWork\IndWork\obj\Debug\IndWork.pdb
+D:\IndWork\IndWork\bin\Debug\App.config
+D:\IndWork\IndWork\bin\Debug\IndWork.mdf
+D:\IndWork\IndWork\bin\Debug\IndWork_log.ldf
+D:\IndWork\IndWork\bin\Debug\IndWork.exe.config
+D:\IndWork\IndWork\bin\Debug\IndWork.exe
+D:\IndWork\IndWork\bin\Debug\IndWork.pdb
+D:\IndWork\IndWork\obj\Debug\IndWork.csproj.AssemblyReference.cache
+D:\IndWork\IndWork\obj\Debug\IndWork.Properties.Resources.resources
+D:\IndWork\IndWork\obj\Debug\IndWork.Telas.Ajuda.resources
+D:\IndWork\IndWork\obj\Debug\IndWork.Telas.Avaliacao.resources
+D:\IndWork\IndWork\obj\Debug\IndWork.Telas.CadastrarContratante.resources
+D:\IndWork\IndWork\obj\Debug\IndWork.Telas.CadastroPrestador.resources
+D:\IndWork\IndWork\obj\Debug\IndWork.Telas.CardPesquisa.resources
+D:\IndWork\IndWork\obj\Debug\IndWork.Telas.Categorias.resources
+D:\IndWork\IndWork\obj\Debug\IndWork.Telas.Contratacao.resources
+D:\IndWork\IndWork\obj\Debug\IndWork.Telas.GerenciarContratantes.resources
+D:\IndWork\IndWork\obj\Debug\IndWork.Telas.GerenciarPrestadores.resources
+D:\IndWork\IndWork\obj\Debug\IndWork.Telas.PerfilPrestador.resources
+D:\IndWork\IndWork\obj\Debug\IndWork.Telas.Pesquisa.resources
+D:\IndWork\IndWork\obj\Debug\IndWork.Principal.resources
+D:\IndWork\IndWork\obj\Debug\IndWork.Telas.SobreNos.resources
+D:\IndWork\IndWork\obj\Debug\IndWork.csproj.GenerateResource.cache
+D:\IndWork\IndWork\obj\Debug\IndWork.csproj.CoreCompileInputs.cache
+D:\IndWork\IndWork\obj\Debug\IndWork.exe
+D:\IndWork\IndWork\obj\Debug\IndWork.pdb
+C:\Users\amand\Downloads\IndWork\IndWork\obj\Debug\IndWork.csproj.AssemblyReference.cache
+C:\Users\amand\Downloads\IndWork\IndWork\obj\Debug\IndWork.csproj.SuggestedBindingRedirects.cache
+C:\Users\amand\Downloads\IndWork\IndWork\obj\Debug\IndWork.exe.config
+C:\Users\amand\Downloads\IndWork\IndWork\obj\Debug\IndWork.Properties.Resources.resources
+C:\Users\amand\Downloads\IndWork\IndWork\obj\Debug\IndWork.Telas.Ajuda.resources
+C:\Users\amand\Downloads\IndWork\IndWork\obj\Debug\IndWork.Telas.Avaliacao.resources
+C:\Users\amand\Downloads\IndWork\IndWork\obj\Debug\IndWork.Telas.CadastrarContratante.resources
+C:\Users\amand\Downloads\IndWork\IndWork\obj\Debug\IndWork.Telas.CadastroPrestador.resources
+C:\Users\amand\Downloads\IndWork\IndWork\obj\Debug\IndWork.Telas.CardPesquisa.resources
+C:\Users\amand\Downloads\IndWork\IndWork\obj\Debug\IndWork.Telas.Categorias.resources
+C:\Users\amand\Downloads\IndWork\IndWork\obj\Debug\IndWork.Telas.Contratacao.resources
+C:\Users\amand\Downloads\IndWork\IndWork\obj\Debug\IndWork.Telas.GerenciarContratantes.resources
+C:\Users\amand\Downloads\IndWork\IndWork\obj\Debug\IndWork.Telas.GerenciarPrestadores.resources
+C:\Users\amand\Downloads\IndWork\IndWork\obj\Debug\IndWork.Telas.PerfilPrestador.resources
+C:\Users\amand\Downloads\IndWork\IndWork\obj\Debug\IndWork.Telas.Pesquisa.resources
+C:\Users\amand\Downloads\IndWork\IndWork\obj\Debug\IndWork.Principal.resources
+C:\Users\amand\Downloads\IndWork\IndWork\obj\Debug\IndWork.Telas.SobreNos.resources
+C:\Users\amand\Downloads\IndWork\IndWork\obj\Debug\IndWork.csproj.GenerateResource.cache
+C:\Users\amand\Downloads\IndWork\IndWork\obj\Debug\IndWork.csproj.CoreCompileInputs.cache
+C:\Users\amand\Downloads\IndWork\IndWork\bin\Debug\App.config
+C:\Users\amand\Downloads\IndWork\IndWork\bin\Debug\IndWork.exe.config
+C:\Users\amand\Downloads\IndWork\IndWork\bin\Debug\IndWork.exe
+C:\Users\amand\Downloads\IndWork\IndWork\bin\Debug\IndWork.pdb
+C:\Users\amand\Downloads\IndWork\IndWork\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\amand\Downloads\IndWork\IndWork\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\amand\Downloads\IndWork\IndWork\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\amand\Downloads\IndWork\IndWork\bin\Debug\MySql.Data.dll
+C:\Users\amand\Downloads\IndWork\IndWork\bin\Debug\MySqlConnector.dll
+C:\Users\amand\Downloads\IndWork\IndWork\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\amand\Downloads\IndWork\IndWork\bin\Debug\System.Memory.dll
+C:\Users\amand\Downloads\IndWork\IndWork\bin\Debug\System.Buffers.dll
+C:\Users\amand\Downloads\IndWork\IndWork\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\amand\Downloads\IndWork\IndWork\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\amand\Downloads\IndWork\IndWork\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\amand\Downloads\IndWork\IndWork\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\amand\Downloads\IndWork\IndWork\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\amand\Downloads\IndWork\IndWork\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\amand\Downloads\IndWork\IndWork\bin\Debug\MySql.Data.xml
+C:\Users\amand\Downloads\IndWork\IndWork\bin\Debug\MySqlConnector.xml
+C:\Users\amand\Downloads\IndWork\IndWork\obj\Debug\IndWork.csproj.Up2Date
+C:\Users\amand\Downloads\IndWork\IndWork\obj\Debug\IndWork.exe
+C:\Users\amand\Downloads\IndWork\IndWork\obj\Debug\IndWork.pdb
+C:\Users\marip\Desktop\projeto\IndWork (2)\IndWork\IndWork\obj\Debug\IndWork.csproj.AssemblyReference.cache
+C:\Users\marip\Desktop\projeto\IndWork (2)\IndWork\IndWork\obj\Debug\IndWork.csproj.SuggestedBindingRedirects.cache
+C:\Users\marip\Desktop\projeto\IndWork (2)\IndWork\IndWork\obj\Debug\IndWork.exe.config
+C:\Users\marip\Desktop\projeto\IndWork (2)\IndWork\IndWork\obj\Debug\IndWork.exe
+C:\Users\marip\Desktop\projeto\IndWork (2)\IndWork\IndWork\obj\Debug\IndWork.pdb
+C:\Users\marip\Desktop\projeto\IndWork (2)\IndWork\IndWork\bin\Debug\App.config
+C:\Users\marip\Desktop\projeto\IndWork (2)\IndWork\IndWork\bin\Debug\IndWork.exe.config
+C:\Users\marip\Desktop\projeto\IndWork (2)\IndWork\IndWork\bin\Debug\IndWork.exe
+C:\Users\marip\Desktop\projeto\IndWork (2)\IndWork\IndWork\bin\Debug\IndWork.pdb
+C:\Users\marip\Desktop\projeto\IndWork (2)\IndWork\IndWork\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\marip\Desktop\projeto\IndWork (2)\IndWork\IndWork\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\marip\Desktop\projeto\IndWork (2)\IndWork\IndWork\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\marip\Desktop\projeto\IndWork (2)\IndWork\IndWork\bin\Debug\MySql.Data.dll
+C:\Users\marip\Desktop\projeto\IndWork (2)\IndWork\IndWork\bin\Debug\MySqlConnector.dll
+C:\Users\marip\Desktop\projeto\IndWork (2)\IndWork\IndWork\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\marip\Desktop\projeto\IndWork (2)\IndWork\IndWork\bin\Debug\System.Memory.dll
+C:\Users\marip\Desktop\projeto\IndWork (2)\IndWork\IndWork\bin\Debug\System.Buffers.dll
+C:\Users\marip\Desktop\projeto\IndWork (2)\IndWork\IndWork\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\marip\Desktop\projeto\IndWork (2)\IndWork\IndWork\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\marip\Desktop\projeto\IndWork (2)\IndWork\IndWork\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\marip\Desktop\projeto\IndWork (2)\IndWork\IndWork\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\marip\Desktop\projeto\IndWork (2)\IndWork\IndWork\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\marip\Desktop\projeto\IndWork (2)\IndWork\IndWork\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\marip\Desktop\projeto\IndWork (2)\IndWork\IndWork\bin\Debug\MySql.Data.xml
+C:\Users\marip\Desktop\projeto\IndWork (2)\IndWork\IndWork\bin\Debug\MySqlConnector.xml
+C:\Users\marip\Desktop\projeto\IndWork (2)\IndWork\IndWork\obj\Debug\IndWork.Properties.Resources.resources
+C:\Users\marip\Desktop\projeto\IndWork (2)\IndWork\IndWork\obj\Debug\IndWork.Telas.Ajuda.resources
+C:\Users\marip\Desktop\projeto\IndWork (2)\IndWork\IndWork\obj\Debug\IndWork.Telas.Avaliacao.resources
+C:\Users\marip\Desktop\projeto\IndWork (2)\IndWork\IndWork\obj\Debug\IndWork.Telas.CadastrarContratante.resources
+C:\Users\marip\Desktop\projeto\IndWork (2)\IndWork\IndWork\obj\Debug\IndWork.Telas.CadastroPrestador.resources
+C:\Users\marip\Desktop\projeto\IndWork (2)\IndWork\IndWork\obj\Debug\IndWork.Telas.CardPesquisa.resources
+C:\Users\marip\Desktop\projeto\IndWork (2)\IndWork\IndWork\obj\Debug\IndWork.Telas.Categorias.resources
+C:\Users\marip\Desktop\projeto\IndWork (2)\IndWork\IndWork\obj\Debug\IndWork.Telas.Contratacao.resources
+C:\Users\marip\Desktop\projeto\IndWork (2)\IndWork\IndWork\obj\Debug\IndWork.Telas.GerenciarContratantes.resources
+C:\Users\marip\Desktop\projeto\IndWork (2)\IndWork\IndWork\obj\Debug\IndWork.Telas.GerenciarPrestadores.resources
+C:\Users\marip\Desktop\projeto\IndWork (2)\IndWork\IndWork\obj\Debug\IndWork.Telas.PerfilPrestador.resources
+C:\Users\marip\Desktop\projeto\IndWork (2)\IndWork\IndWork\obj\Debug\IndWork.Telas.Pesquisa.resources
+C:\Users\marip\Desktop\projeto\IndWork (2)\IndWork\IndWork\obj\Debug\IndWork.Principal.resources
+C:\Users\marip\Desktop\projeto\IndWork (2)\IndWork\IndWork\obj\Debug\IndWork.Telas.SobreNos.resources
+C:\Users\marip\Desktop\projeto\IndWork (2)\IndWork\IndWork\obj\Debug\IndWork.csproj.GenerateResource.cache
+C:\Users\marip\Desktop\projeto\IndWork (2)\IndWork\IndWork\obj\Debug\IndWork.csproj.CoreCompileInputs.cache
+C:\Users\marip\Desktop\projeto\IndWork (2)\IndWork\IndWork\obj\Debug\IndWork.csproj.Up2Date
+C:\Users\amand\Downloads\projeto.ZIP\projeto\IndWork (2)\IndWork\IndWork\obj\Debug\IndWork.csproj.AssemblyReference.cache
+C:\Users\amand\Downloads\projeto.ZIP\projeto\IndWork (2)\IndWork\IndWork\obj\Debug\IndWork.csproj.SuggestedBindingRedirects.cache
+C:\Users\amand\Downloads\projeto.ZIP\projeto\IndWork (2)\IndWork\IndWork\obj\Debug\IndWork.exe.config
+C:\Users\amand\Downloads\projeto.ZIP\projeto\IndWork (2)\IndWork\IndWork\obj\Debug\IndWork.exe
+C:\Users\amand\Downloads\projeto.ZIP\projeto\IndWork (2)\IndWork\IndWork\obj\Debug\IndWork.pdb
+C:\Users\amand\Downloads\projeto.ZIP\projeto\IndWork (2)\IndWork\IndWork\bin\Debug\App.config
+C:\Users\amand\Downloads\projeto.ZIP\projeto\IndWork (2)\IndWork\IndWork\bin\Debug\IndWork.exe.config
+C:\Users\amand\Downloads\projeto.ZIP\projeto\IndWork (2)\IndWork\IndWork\bin\Debug\IndWork.exe
+C:\Users\amand\Downloads\projeto.ZIP\projeto\IndWork (2)\IndWork\IndWork\bin\Debug\IndWork.pdb
+C:\Users\amand\Downloads\projeto.ZIP\projeto\IndWork (2)\IndWork\IndWork\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\amand\Downloads\projeto.ZIP\projeto\IndWork (2)\IndWork\IndWork\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\amand\Downloads\projeto.ZIP\projeto\IndWork (2)\IndWork\IndWork\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\amand\Downloads\projeto.ZIP\projeto\IndWork (2)\IndWork\IndWork\bin\Debug\MySql.Data.dll
+C:\Users\amand\Downloads\projeto.ZIP\projeto\IndWork (2)\IndWork\IndWork\bin\Debug\MySqlConnector.dll
+C:\Users\amand\Downloads\projeto.ZIP\projeto\IndWork (2)\IndWork\IndWork\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\amand\Downloads\projeto.ZIP\projeto\IndWork (2)\IndWork\IndWork\bin\Debug\System.Memory.dll
+C:\Users\amand\Downloads\projeto.ZIP\projeto\IndWork (2)\IndWork\IndWork\bin\Debug\System.Buffers.dll
+C:\Users\amand\Downloads\projeto.ZIP\projeto\IndWork (2)\IndWork\IndWork\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\amand\Downloads\projeto.ZIP\projeto\IndWork (2)\IndWork\IndWork\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\amand\Downloads\projeto.ZIP\projeto\IndWork (2)\IndWork\IndWork\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\amand\Downloads\projeto.ZIP\projeto\IndWork (2)\IndWork\IndWork\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\amand\Downloads\projeto.ZIP\projeto\IndWork (2)\IndWork\IndWork\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\amand\Downloads\projeto.ZIP\projeto\IndWork (2)\IndWork\IndWork\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\amand\Downloads\projeto.ZIP\projeto\IndWork (2)\IndWork\IndWork\bin\Debug\MySql.Data.xml
+C:\Users\amand\Downloads\projeto.ZIP\projeto\IndWork (2)\IndWork\IndWork\bin\Debug\MySqlConnector.xml
+C:\Users\amand\Downloads\projeto.ZIP\projeto\IndWork (2)\IndWork\IndWork\obj\Debug\IndWork.Properties.Resources.resources
+C:\Users\amand\Downloads\projeto.ZIP\projeto\IndWork (2)\IndWork\IndWork\obj\Debug\IndWork.Telas.Ajuda.resources
+C:\Users\amand\Downloads\projeto.ZIP\projeto\IndWork (2)\IndWork\IndWork\obj\Debug\IndWork.Telas.Avaliacao.resources
+C:\Users\amand\Downloads\projeto.ZIP\projeto\IndWork (2)\IndWork\IndWork\obj\Debug\IndWork.Telas.CadastrarContratante.resources
+C:\Users\amand\Downloads\projeto.ZIP\projeto\IndWork (2)\IndWork\IndWork\obj\Debug\IndWork.Telas.CadastroPrestador.resources
+C:\Users\amand\Downloads\projeto.ZIP\projeto\IndWork (2)\IndWork\IndWork\obj\Debug\IndWork.Telas.CardPesquisa.resources
+C:\Users\amand\Downloads\projeto.ZIP\projeto\IndWork (2)\IndWork\IndWork\obj\Debug\IndWork.Telas.Categorias.resources
+C:\Users\amand\Downloads\projeto.ZIP\projeto\IndWork (2)\IndWork\IndWork\obj\Debug\IndWork.Telas.Contratacao.resources
+C:\Users\amand\Downloads\projeto.ZIP\projeto\IndWork (2)\IndWork\IndWork\obj\Debug\IndWork.Telas.GerenciarContratantes.resources
+C:\Users\amand\Downloads\projeto.ZIP\projeto\IndWork (2)\IndWork\IndWork\obj\Debug\IndWork.Telas.GerenciarPrestadores.resources
+C:\Users\amand\Downloads\projeto.ZIP\projeto\IndWork (2)\IndWork\IndWork\obj\Debug\IndWork.Telas.PerfilPrestador.resources
+C:\Users\amand\Downloads\projeto.ZIP\projeto\IndWork (2)\IndWork\IndWork\obj\Debug\IndWork.Telas.Pesquisa.resources
+C:\Users\amand\Downloads\projeto.ZIP\projeto\IndWork (2)\IndWork\IndWork\obj\Debug\IndWork.Principal.resources
+C:\Users\amand\Downloads\projeto.ZIP\projeto\IndWork (2)\IndWork\IndWork\obj\Debug\IndWork.Telas.SobreNos.resources
+C:\Users\amand\Downloads\projeto.ZIP\projeto\IndWork (2)\IndWork\IndWork\obj\Debug\IndWork.csproj.GenerateResource.cache
+C:\Users\amand\Downloads\projeto.ZIP\projeto\IndWork (2)\IndWork\IndWork\obj\Debug\IndWork.csproj.CoreCompileInputs.cache
+C:\Users\amand\Downloads\projeto.ZIP\projeto\IndWork (2)\IndWork\IndWork\obj\Debug\IndWork.csproj.Up2Date

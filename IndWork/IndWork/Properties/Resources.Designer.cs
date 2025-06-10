@@ -113,6 +113,16 @@ namespace IndWork.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_test_account_48__1_ {
+            get {
+                object obj = ResourceManager.GetObject("icons8-test-account-48 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ImagemInicial {
             get {
                 object obj = ResourceManager.GetObject("ImagemInicial", resourceCulture);
@@ -216,6 +226,26 @@ namespace IndWork.Properties {
         internal static System.Drawing.Bitmap Sewing_Machine {
             get {
                 object obj = ResourceManager.GetObject("Sewing Machine", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Star_1 {
+            get {
+                object obj = ResourceManager.GetObject("Star 1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Star_1__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Star 1 (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -121,7 +121,8 @@ namespace IndWork
 
         private void btnPesquisar_Click(object sender, EventArgs e)
         {
-            Pesquisa pesquisa = new Pesquisa();
+            string textoBusca = txtPesquisar.Text;
+            Pesquisa pesquisa = new Pesquisa(textoBusca);
             pesquisa.Show();
             this.Hide();
         }
@@ -149,12 +150,16 @@ namespace IndWork
 
         private void gerenciarContratante_Click(object sender, EventArgs e)
         {
-
+            GerenciarContratantes gerenciarContratantes = new GerenciarContratantes();
+            gerenciarContratantes.Show();
+            this.Hide();
         }
 
         private void gerenciarPrestadores_Click(object sender, EventArgs e)
         {
-
+            GerenciarPrestadores gerenciarPrestadores = new GerenciarPrestadores();
+            gerenciarPrestadores.Show();
+            this.Hide();
         }
 
         private void label6_Click(object sender, EventArgs e)
@@ -198,6 +203,11 @@ namespace IndWork
         }
 
         private void label11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
         {
 
         }

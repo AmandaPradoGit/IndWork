@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.btnCadastrar = new RoundedButton();
             this.roundedPanel9 = new RoundedPanel();
             this.checkvidr = new System.Windows.Forms.CheckBox();
@@ -96,7 +97,6 @@
             this.roundedPanel4 = new RoundedPanel();
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.gradientPanel2 = new GradientPanel();
             this.btnFacebook = new System.Windows.Forms.Button();
             this.btnInstagram = new System.Windows.Forms.Button();
@@ -128,10 +128,10 @@
             // 
             this.panel1.AutoScroll = true;
             this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.btnCadastrar);
             this.panel1.Controls.Add(this.roundedPanel9);
             this.panel1.Controls.Add(this.panel4);
-            this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.gradientPanel2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 51);
@@ -140,6 +140,13 @@
             this.panel1.TabIndex = 4;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             this.panel1.Resize += new System.EventHandler(this.panel1_Resize);
+            // 
+            // panel3
+            // 
+            this.panel3.Location = new System.Drawing.Point(3, 920);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(23, 10);
+            this.panel3.TabIndex = 29;
             // 
             // btnCadastrar
             // 
@@ -151,7 +158,7 @@
             this.btnCadastrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCadastrar.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCadastrar.ForeColor = System.Drawing.Color.White;
-            this.btnCadastrar.Location = new System.Drawing.Point(1293, 776);
+            this.btnCadastrar.Location = new System.Drawing.Point(1231, 824);
             this.btnCadastrar.Name = "btnCadastrar";
             this.btnCadastrar.Size = new System.Drawing.Size(305, 52);
             this.btnCadastrar.TabIndex = 26;
@@ -202,7 +209,7 @@
             this.roundedPanel9.Controls.Add(this.checkAz);
             this.roundedPanel9.Controls.Add(this.checkAT);
             this.roundedPanel9.Controls.Add(this.label9);
-            this.roundedPanel9.Location = new System.Drawing.Point(939, 41);
+            this.roundedPanel9.Location = new System.Drawing.Point(959, 30);
             this.roundedPanel9.Name = "roundedPanel9";
             this.roundedPanel9.Size = new System.Drawing.Size(659, 703);
             this.roundedPanel9.TabIndex = 28;
@@ -665,7 +672,7 @@
             this.panel4.Controls.Add(this.label3);
             this.panel4.Controls.Add(this.roundedPanel4);
             this.panel4.Controls.Add(this.label4);
-            this.panel4.Location = new System.Drawing.Point(23, 41);
+            this.panel4.Location = new System.Drawing.Point(43, 30);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(850, 807);
             this.panel4.TabIndex = 27;
@@ -724,6 +731,8 @@
             this.txtCep.Name = "txtCep";
             this.txtCep.Size = new System.Drawing.Size(263, 32);
             this.txtCep.TabIndex = 6;
+            this.txtCep.TextChanged += new System.EventHandler(this.txtCep_TextChanged);
+            this.txtCep.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCep_KeyPress);
             // 
             // label7
             // 
@@ -832,6 +841,7 @@
             this.txtCpf.Size = new System.Drawing.Size(253, 32);
             this.txtCpf.TabIndex = 6;
             this.txtCpf.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.txtCpf.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCpf_KeyPress);
             // 
             // label1
             // 
@@ -926,6 +936,8 @@
             this.txtTelefone.Name = "txtTelefone";
             this.txtTelefone.Size = new System.Drawing.Size(250, 32);
             this.txtTelefone.TabIndex = 6;
+            this.txtTelefone.TextChanged += new System.EventHandler(this.txtTelefone_TextChanged);
+            this.txtTelefone.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTelefone_KeyPress);
             // 
             // label3
             // 
@@ -970,13 +982,6 @@
             this.label4.TabIndex = 15;
             this.label4.Text = "E-mail";
             // 
-            // panel3
-            // 
-            this.panel3.Location = new System.Drawing.Point(12, 440);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(10, 408);
-            this.panel3.TabIndex = 17;
-            // 
             // gradientPanel2
             // 
             this.gradientPanel2.Controls.Add(this.btnFacebook);
@@ -987,7 +992,7 @@
             this.gradientPanel2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.gradientPanel2.EndColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(4)))), ((int)(((byte)(115)))));
             this.gradientPanel2.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Horizontal;
-            this.gradientPanel2.Location = new System.Drawing.Point(0, 848);
+            this.gradientPanel2.Location = new System.Drawing.Point(0, 930);
             this.gradientPanel2.Name = "gradientPanel2";
             this.gradientPanel2.Size = new System.Drawing.Size(1621, 66);
             this.gradientPanel2.StartColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
@@ -1228,7 +1233,6 @@
         private RoundedPanel roundedPanel5;
         private System.Windows.Forms.TextBox txtRua;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Panel panel3;
         private RoundedPanel roundedPanel4;
         private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.Label label4;
@@ -1283,5 +1287,6 @@
         private System.Windows.Forms.CheckBox checkMot;
         private System.Windows.Forms.CheckBox checkMec;
         private System.Windows.Forms.CheckBox checkMasso;
+        private System.Windows.Forms.Panel panel3;
     }
 }

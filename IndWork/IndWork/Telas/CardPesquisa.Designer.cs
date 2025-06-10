@@ -28,44 +28,39 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnFoto = new CircularButton();
-            this.linkResultado = new System.Windows.Forms.LinkLabel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.lblNome = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // btnFoto
+            // panel1
             // 
-            this.btnFoto.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.btnFoto.BorderColor = System.Drawing.Color.Black;
-            this.btnFoto.BorderSize = 0;
-            this.btnFoto.Location = new System.Drawing.Point(15, 4);
-            this.btnFoto.Name = "btnFoto";
-            this.btnFoto.Size = new System.Drawing.Size(45, 42);
-            this.btnFoto.TabIndex = 0;
-            this.btnFoto.Text = "circularButton1";
-            this.btnFoto.UseVisualStyleBackColor = false;
+            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel1.Location = new System.Drawing.Point(0, 46);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1440, 3);
+            this.panel1.TabIndex = 2;
             // 
-            // linkResultado
+            // lblNome
             // 
-            this.linkResultado.ActiveLinkColor = System.Drawing.Color.Navy;
-            this.linkResultado.AutoSize = true;
-            this.linkResultado.Font = new System.Drawing.Font("Myanmar Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkResultado.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.linkResultado.Location = new System.Drawing.Point(66, 9);
-            this.linkResultado.Name = "linkResultado";
-            this.linkResultado.Size = new System.Drawing.Size(102, 36);
-            this.linkResultado.TabIndex = 1;
-            this.linkResultado.TabStop = true;
-            this.linkResultado.Text = "Resultado";
-            this.linkResultado.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            this.lblNome.AutoSize = true;
+            this.lblNome.Font = new System.Drawing.Font("Myanmar Text", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNome.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.lblNome.Location = new System.Drawing.Point(21, 8);
+            this.lblNome.Name = "lblNome";
+            this.lblNome.Size = new System.Drawing.Size(63, 32);
+            this.lblNome.TabIndex = 4;
+            this.lblNome.Text = "Nome";
+            this.lblNome.Click += new System.EventHandler(this.lblNome_Click);
             // 
             // CardPesquisa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.linkResultado);
-            this.Controls.Add(this.btnFoto);
+            this.Controls.Add(this.lblNome);
+            this.Controls.Add(this.panel1);
             this.Name = "CardPesquisa";
-            this.Size = new System.Drawing.Size(993, 49);
+            this.Size = new System.Drawing.Size(1440, 49);
             this.Load += new System.EventHandler(this.CardPesquisa_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -73,8 +68,7 @@
         }
 
         #endregion
-
-        private CircularButton btnFoto;
-        private System.Windows.Forms.LinkLabel linkResultado;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label lblNome;
     }
 }

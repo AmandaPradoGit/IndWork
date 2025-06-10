@@ -17,7 +17,7 @@ namespace IndWork.Telas
 
         private void Fechar_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
     }
 }

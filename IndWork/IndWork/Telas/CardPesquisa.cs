@@ -7,24 +7,47 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using IndWork.dados;
 
 namespace IndWork.Telas
 {
     public partial class CardPesquisa: UserControl
     {
-        public CardPesquisa()
+        private Prestador prestador;
+        public CardPesquisa(Prestador prestador)
         {
             InitializeComponent();
+            this.prestador = prestador;
+            lblNome.Text = prestador.Nome;
         }
 
         private void CardPesquisa_Load(object sender, EventArgs e)
         {
-
         }
 
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+       
+        private void lblNome_Click(object sender, EventArgs e)
         {
-
+            if (prestador != null)
+            {
+                PerfilPrestador telaPerfil = new PerfilPrestador(prestador);
+                telaPerfil.Show();
+                Form pesquisa = this.FindForm();
+                if (pesquisa != null)
+                {
+                    pesquisa.Hide();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Prestador não disponível.");
+            }
         }
+
+      
+
+
+
+
     }
 }

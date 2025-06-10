@@ -48,10 +48,27 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.8.0.0\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=8.0.0.2, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.8.0.2\lib\net462\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=8.0.0.2, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.Abstractions.8.0.2\lib\net462\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=9.3.0.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.9.3.0\lib\net462\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySqlConnector, Version=2.0.0.0, Culture=neutral, PublicKeyToken=d33d3e53aa5f8c92, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySqlConnector.2.4.0\lib\net471\MySqlConnector.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Transactions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -63,22 +80,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Codigo\Dominio\Entidades\Enums\Categoria.cs" />
-    <Compile Include="Codigo\Dominio\Entidades\EntidadeBase.cs" />
-    <Compile Include="Codigo\Dominio\Entidades\Pessoa.cs" />
-    <Compile Include="Codigo\Dominio\Entidades\Prestador.cs" />
-    <Compile Include="Codigo\Infraestrutura\Auxiliares\ValidadorCpf.cs" />
-    <Compile Include="Codigo\Infraestrutura\Auxiliares\ValidadorEmail.cs" />
-    <Compile Include="Codigo\Infraestrutura\Persistencia\ContextoDeDados - Copy.cs" />
-    <Compile Include="Codigo\Infraestrutura\Persistencia\InicializadorBanco.cs" />
-    <Compile Include="Codigo\Infraestrutura\Repositorios\PrestadorRepositorio.cs" />
-    <Compile Include="Codigo\Infraestrutura\ScriptsSql\AuxiliarRecursos.cs" />
-    <Compile Include="Codigo\Infraestrutura\Persistencia\ContextoDeDados.cs" />
-    <Compile Include="Codigo\Infraestrutura\Repositorios\PessoaRepositorio.cs" />
-    <Compile Include="Codigo\Infraestrutura\Repositorios\RepositorioBase.cs" />
-    <Compile Include="Codigo\Infraestrutura\ScriptsSql\GerenciarScripts.cs" />
-    <Compile Include="Codigo\Servicos\BaseServico.cs" />
-    <Compile Include="Codigo\Servicos\PessoaServico.cs" />
+    <Compile Include="banco\AvaliacaoDAO.cs" />
+    <Compile Include="banco\Conexão.cs" />
+    <Compile Include="banco\ContratanteDAO.cs" />
+    <Compile Include="banco\PrestadorDAO.cs" />
+    <Compile Include="dados\Avaliacao.cs" />
+    <Compile Include="dados\Cadastro.cs" />
+    <Compile Include="dados\Contratante.cs" />
+    <Compile Include="dados\EnumServicos.cs" />
+    <Compile Include="dados\Prestador.cs" />
     <Compile Include="Telas\Ajuda.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -227,6 +237,7 @@
     <EmbeddedResource Include="Telas\SobreNos.resx">
       <DependentUpon>SobreNos.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -300,35 +311,8 @@
     <None Include="Resources\Business.png" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Codigo\Infraestrutura\ScriptsSql\RemoverPrestador.sql" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Codigo\Infraestrutura\ScriptsSql\AtualizarPessoa.sql" />
-    <EmbeddedResource Include="Codigo\Infraestrutura\ScriptsSql\InserirPessoa.sql" />
-    <EmbeddedResource Include="Codigo\Infraestrutura\ScriptsSql\ListarPessoas.sql" />
-    <EmbeddedResource Include="Codigo\Infraestrutura\ScriptsSql\ObtemPessoaPorId.sql" />
-    <EmbeddedResource Include="Codigo\Infraestrutura\ScriptsSql\RemoverPessoa.sql" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Codigo\Infraestrutura\ScriptsSql\InserirPrestador.sql" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Codigo\Infraestrutura\ScriptsSql\ListarPrestadores.sql" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Codigo\Infraestrutura\ScriptsSql\ObtemPrestadorPorId.sql" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Codigo\Infraestrutura\ScriptsSql\AtualizarPrestador.sql" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="IndWork.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="IndWork_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>IndWork.mdf</DependentUpon>
-    </Content>
+    <None Include="Resources\Star 1 %281%29.png" />
+    <None Include="Resources\Star 1.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
@@ -341,6 +325,9 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-test-account-48 %281%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

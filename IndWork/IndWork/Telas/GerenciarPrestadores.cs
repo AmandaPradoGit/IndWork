@@ -1,4 +1,5 @@
-﻿using System;
+﻿using IndWork.dados;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +13,7 @@ namespace IndWork.Telas
 {
     public partial class GerenciarPrestadores: Form
     {
+
         public GerenciarPrestadores()
         {
             InitializeComponent();
@@ -55,5 +57,17 @@ namespace IndWork.Telas
             ajuda.Show();
             this.Hide();
         }
+
+        private void btnSobreNós_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            SobreNos sobreNos = new SobreNos();
+            sobreNos.Show();
+            this.Hide();
+        }
+
+        private void btnPesquisar_Click(object sender, EventArgs e)
+        {
+        }
+
     }
 }
