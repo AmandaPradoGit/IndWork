@@ -77,7 +77,10 @@ namespace IndWork
 
         private void circularButton5_Click(object sender, EventArgs e)
         {
-
+            string textoBusca = "Confeitaria";
+            Pesquisa pesquisa = new Pesquisa(textoBusca);
+            pesquisa.Show();
+            this.Hide();
         }
 
         private void label7_Click(object sender, EventArgs e)
@@ -116,7 +119,10 @@ namespace IndWork
 
         private void circularButton1_Click(object sender, EventArgs e)
         {
-
+            string textoBusca = "Construção";
+            Pesquisa pesquisa = new Pesquisa(textoBusca);
+            pesquisa.Show();
+            this.Hide();
         }
 
         private void btnPesquisar_Click(object sender, EventArgs e)
@@ -150,7 +156,8 @@ namespace IndWork
 
         private void gerenciarContratante_Click(object sender, EventArgs e)
         {
-            GerenciarContratantes gerenciarContratantes = new GerenciarContratantes();
+            string textoBusca = txtPesquisar.Text;
+            GerenciarContratantes gerenciarContratantes = new GerenciarContratantes(textoBusca);
             gerenciarContratantes.Show();
             this.Hide();
         }
@@ -210,6 +217,30 @@ namespace IndWork
         private void label4_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnJardinagem_Click(object sender, EventArgs e)
+        {
+            string textoBusca = "Jardinagem";
+            Pesquisa pesquisa = new Pesquisa(textoBusca);
+            pesquisa.Show();
+            this.Hide();
+        }
+
+        private void btnCostura_Click(object sender, EventArgs e)
+        {
+            string textoBusca = "Costura";
+            Pesquisa pesquisa = new Pesquisa(textoBusca);
+            pesquisa.Show();
+            this.Hide();
+        }
+
+        private void btnMecanica_Click(object sender, EventArgs e)
+        {
+            string textoBusca = "Mecanica";
+            Pesquisa pesquisa = new Pesquisa(textoBusca);
+            pesquisa.Show();
+            this.Hide();
         }
     }
 }

@@ -19,20 +19,20 @@ namespace IndWork.banco
                 conn.Open();
 
                 var query = @"INSERT INTO avaliacao (PrestadorID, Nota, Comentario)
-                      VALUES (@PrestadorID, @Nota, @Comentario)";
+                          VALUES (@PrestadorID, @Nota, @Comentario)";
 
                 using (var cmd = new MySqlCommand(query, conn))
                 {
-                    cmd.Parameters.AddWithValue("@PrestadorID", avaliacao.PrestadorId);
-                    cmd.Parameters.AddWithValue("@Nota", avaliacao.Nota);
-                    cmd.Parameters.AddWithValue("@Comentario", avaliacao.Comentario);
+                    cmd.Parameters.Add("@PrestadorID", MySqlDbType.Int32).Value = avaliacao.PrestadorId;
+                    cmd.Parameters.Add("@Nota", MySqlDbType.Double).Value = avaliacao.Nota;
+                    cmd.Parameters.Add("@Comentario", MySqlDbType.VarChar).Value = avaliacao.Comentario;
 
                     cmd.ExecuteNonQuery();
                 }
             }
         }
 
-        public double ObterMediaAvaliacao(int prestadorId)
+        public double? ObterMediaAvaliacao(int prestadorId)
         {
             using (var conn = new MySqlConnection(connectionString))
             {
@@ -42,17 +42,13 @@ namespace IndWork.banco
 
                 using (var cmd = new MySqlCommand(query, conn))
                 {
-                    cmd.Parameters.AddWithValue("@PrestadorID", prestadorId);
+                    cmd.Parameters.Add("@PrestadorID", MySqlDbType.Int32).Value = prestadorId;
                     object result = cmd.ExecuteScalar();
 
-                    // DEBUG
-                    Console.WriteLine($"Valor do banco: {result}");
-
-                    return result != null && result != DBNull.Value ? Convert.ToDouble(result) : 5.0;
+                    return result != null && result != DBNull.Value ? Convert.ToDouble(result) : (double?)null;
                 }
             }
         }
-
-
     }
+
 }

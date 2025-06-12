@@ -157,6 +157,7 @@
             this.btnMotoristas.TabIndex = 43;
             this.btnMotoristas.Text = "Motoristas";
             this.btnMotoristas.UseVisualStyleBackColor = false;
+            this.btnMotoristas.Click += new System.EventHandler(this.btnMotoristas_Click);
             // 
             // btnEntregas
             // 
@@ -190,6 +191,7 @@
             this.btnFreteamento.TabIndex = 41;
             this.btnFreteamento.Text = "Freteamento";
             this.btnFreteamento.UseVisualStyleBackColor = false;
+            this.btnFreteamento.Click += new System.EventHandler(this.btnFreteamento_Click);
             // 
             // label5
             // 
@@ -277,6 +279,7 @@
             this.btnConstrucao.TabIndex = 4;
             this.btnConstrucao.Text = "Construção";
             this.btnConstrucao.UseVisualStyleBackColor = false;
+            this.btnConstrucao.Click += new System.EventHandler(this.btnConstrucao_Click);
             // 
             // btnFantasias
             // 
@@ -310,6 +313,7 @@
             this.btnMecanica.TabIndex = 5;
             this.btnMecanica.Text = "Mecânica";
             this.btnMecanica.UseVisualStyleBackColor = false;
+            this.btnMecanica.Click += new System.EventHandler(this.btnMecanica_Click);
             // 
             // btnDecoracao
             // 
@@ -326,6 +330,7 @@
             this.btnDecoracao.TabIndex = 36;
             this.btnDecoracao.Text = "Decoração";
             this.btnDecoracao.UseVisualStyleBackColor = false;
+            this.btnDecoracao.Click += new System.EventHandler(this.btnDecoracao_Click);
             // 
             // btnLimpeza
             // 
@@ -342,6 +347,7 @@
             this.btnLimpeza.TabIndex = 6;
             this.btnLimpeza.Text = "Limpeza";
             this.btnLimpeza.UseVisualStyleBackColor = false;
+            this.btnLimpeza.Click += new System.EventHandler(this.btnLimpeza_Click);
             // 
             // btnFotografia
             // 
@@ -358,6 +364,7 @@
             this.btnFotografia.TabIndex = 35;
             this.btnFotografia.Text = "Fotografia";
             this.btnFotografia.UseVisualStyleBackColor = false;
+            this.btnFotografia.Click += new System.EventHandler(this.btnFotografia_Click);
             // 
             // btnPintor
             // 
@@ -374,6 +381,7 @@
             this.btnPintor.TabIndex = 7;
             this.btnPintor.Text = "Pintor";
             this.btnPintor.UseVisualStyleBackColor = false;
+            this.btnPintor.Click += new System.EventHandler(this.btnPintor_Click);
             // 
             // btnBuffet
             // 
@@ -390,6 +398,7 @@
             this.btnBuffet.TabIndex = 34;
             this.btnBuffet.Text = "Buffet";
             this.btnBuffet.UseVisualStyleBackColor = false;
+            this.btnBuffet.Click += new System.EventHandler(this.btnBuffet_Click);
             // 
             // btnEncanamento
             // 
@@ -406,6 +415,7 @@
             this.btnEncanamento.TabIndex = 8;
             this.btnEncanamento.Text = "Encanamento";
             this.btnEncanamento.UseVisualStyleBackColor = false;
+            this.btnEncanamento.Click += new System.EventHandler(this.btnEncanamento_Click);
             // 
             // btnCulinaria
             // 
@@ -422,6 +432,7 @@
             this.btnCulinaria.TabIndex = 33;
             this.btnCulinaria.Text = "Culinária";
             this.btnCulinaria.UseVisualStyleBackColor = false;
+            this.btnCulinaria.Click += new System.EventHandler(this.btnCulinaria_Click);
             // 
             // btnEletrica
             // 
@@ -438,6 +449,7 @@
             this.btnEletrica.TabIndex = 9;
             this.btnEletrica.Text = "Elétrica";
             this.btnEletrica.UseVisualStyleBackColor = false;
+            this.btnEletrica.Click += new System.EventHandler(this.btnEletrica_Click);
             // 
             // btnConfeitaria
             // 
@@ -454,6 +466,7 @@
             this.btnConfeitaria.TabIndex = 32;
             this.btnConfeitaria.Text = "Confeitaria";
             this.btnConfeitaria.UseVisualStyleBackColor = false;
+            this.btnConfeitaria.Click += new System.EventHandler(this.btnConfeitaria_Click);
             // 
             // btnJardinagem
             // 
@@ -470,6 +483,7 @@
             this.btnJardinagem.TabIndex = 10;
             this.btnJardinagem.Text = "Jardinagem";
             this.btnJardinagem.UseVisualStyleBackColor = false;
+            this.btnJardinagem.Click += new System.EventHandler(this.btnJardinagem_Click);
             // 
             // label4
             // 
@@ -498,6 +512,7 @@
             this.btnMarcenaria.TabIndex = 11;
             this.btnMarcenaria.Text = "Marcenaria";
             this.btnMarcenaria.UseVisualStyleBackColor = false;
+            this.btnMarcenaria.Click += new System.EventHandler(this.btnMarcenaria_Click);
             // 
             // btnAssistenciaTecnica
             // 
@@ -514,6 +529,7 @@
             this.btnAssistenciaTecnica.TabIndex = 30;
             this.btnAssistenciaTecnica.Text = "Assistência Técnico";
             this.btnAssistenciaTecnica.UseVisualStyleBackColor = false;
+            this.btnAssistenciaTecnica.Click += new System.EventHandler(this.btnAssistenciaTecnica_Click);
             // 
             // btnFunilaria
             // 
@@ -530,6 +546,7 @@
             this.btnFunilaria.TabIndex = 12;
             this.btnFunilaria.Text = "Funilaria";
             this.btnFunilaria.UseVisualStyleBackColor = false;
+            this.btnFunilaria.Click += new System.EventHandler(this.btnFunilaria_Click);
             // 
             // label3
             // 
@@ -558,6 +575,7 @@
             this.btnVidracaria.TabIndex = 13;
             this.btnVidracaria.Text = "Vidraçaria";
             this.btnVidracaria.UseVisualStyleBackColor = false;
+            this.btnVidracaria.Click += new System.EventHandler(this.btnVidracaria_Click);
             // 
             // btnCostura
             // 
@@ -574,6 +592,7 @@
             this.btnCostura.TabIndex = 28;
             this.btnCostura.Text = "Costura";
             this.btnCostura.UseVisualStyleBackColor = false;
+            this.btnCostura.Click += new System.EventHandler(this.btnCostura_Click);
             // 
             // btnMarmoaria
             // 
@@ -590,6 +609,7 @@
             this.btnMarmoaria.TabIndex = 14;
             this.btnMarmoaria.Text = "Marmoaria";
             this.btnMarmoaria.UseVisualStyleBackColor = false;
+            this.btnMarmoaria.Click += new System.EventHandler(this.btnMarmoaria_Click);
             // 
             // panel2
             // 
@@ -613,6 +633,7 @@
             this.btnAzulejaria.TabIndex = 15;
             this.btnAzulejaria.Text = "Azulejaria";
             this.btnAzulejaria.UseVisualStyleBackColor = false;
+            this.btnAzulejaria.Click += new System.EventHandler(this.btnAzulejaria_Click);
             // 
             // btnDepilacao
             // 
@@ -629,6 +650,7 @@
             this.btnDepilacao.TabIndex = 26;
             this.btnDepilacao.Text = "Depilação";
             this.btnDepilacao.UseVisualStyleBackColor = false;
+            this.btnDepilacao.Click += new System.EventHandler(this.btnDepilacao_Click);
             // 
             // label2
             // 
@@ -657,6 +679,7 @@
             this.btnMaquiagem.TabIndex = 25;
             this.btnMaquiagem.Text = "Maquiagem";
             this.btnMaquiagem.UseVisualStyleBackColor = false;
+            this.btnMaquiagem.Click += new System.EventHandler(this.btnMaquiagem_Click);
             // 
             // btnCabelereiro
             // 
@@ -673,6 +696,7 @@
             this.btnCabelereiro.TabIndex = 17;
             this.btnCabelereiro.Text = "Cabelereiro";
             this.btnCabelereiro.UseVisualStyleBackColor = false;
+            this.btnCabelereiro.Click += new System.EventHandler(this.btnCabelereiro_Click);
             // 
             // btnDesignCilios
             // 
@@ -689,6 +713,7 @@
             this.btnDesignCilios.TabIndex = 24;
             this.btnDesignCilios.Text = "Design de cílios";
             this.btnDesignCilios.UseVisualStyleBackColor = false;
+            this.btnDesignCilios.Click += new System.EventHandler(this.btnDesignCilios_Click);
             // 
             // btnManicure
             // 
@@ -705,6 +730,7 @@
             this.btnManicure.TabIndex = 18;
             this.btnManicure.Text = "Manicure";
             this.btnManicure.UseVisualStyleBackColor = false;
+            this.btnManicure.Click += new System.EventHandler(this.btnManicure_Click);
             // 
             // btnDesignSobrancelhas
             // 
@@ -721,6 +747,7 @@
             this.btnDesignSobrancelhas.TabIndex = 23;
             this.btnDesignSobrancelhas.Text = "Design de Sobrancelhas";
             this.btnDesignSobrancelhas.UseVisualStyleBackColor = false;
+            this.btnDesignSobrancelhas.Click += new System.EventHandler(this.btnDesignSobrancelhas_Click);
             // 
             // btnBarbearia
             // 
@@ -737,6 +764,7 @@
             this.btnBarbearia.TabIndex = 21;
             this.btnBarbearia.Text = "Barbearia";
             this.btnBarbearia.UseVisualStyleBackColor = false;
+            this.btnBarbearia.Click += new System.EventHandler(this.btnBarbearia_Click);
             // 
             // btnConsultoriaImagem
             // 
@@ -753,6 +781,7 @@
             this.btnConsultoriaImagem.TabIndex = 22;
             this.btnConsultoriaImagem.Text = "Consultoria de imagem";
             this.btnConsultoriaImagem.UseVisualStyleBackColor = false;
+            this.btnConsultoriaImagem.Click += new System.EventHandler(this.btnConsultoriaImagem_Click);
             // 
             // btnMassoterapia
             // 
@@ -769,6 +798,7 @@
             this.btnMassoterapia.TabIndex = 19;
             this.btnMassoterapia.Text = "Massoterapia";
             this.btnMassoterapia.UseVisualStyleBackColor = false;
+            this.btnMassoterapia.Click += new System.EventHandler(this.btnMassoterapia_Click);
             // 
             // gradientPanel2
             // 
@@ -870,6 +900,7 @@
             this.btnEsteticista.TabIndex = 20;
             this.btnEsteticista.Text = "Esteticista";
             this.btnEsteticista.UseVisualStyleBackColor = false;
+            this.btnEsteticista.Click += new System.EventHandler(this.btnEsteticista_Click);
             // 
             // gradientPanel1
             // 

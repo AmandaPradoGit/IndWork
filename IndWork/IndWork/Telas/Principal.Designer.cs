@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Principal));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.roundedPanel1 = new RoundedPanel();
             this.txtPesquisar = new System.Windows.Forms.TextBox();
             this.btnPesquisar = new System.Windows.Forms.Button();
@@ -68,7 +69,6 @@
             this.button3 = new System.Windows.Forms.Button();
             this.Fechar = new System.Windows.Forms.Button();
             this.Minimizar = new System.Windows.Forms.Button();
-            this.panel4 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.roundedPanel1.SuspendLayout();
             this.gradientPanel2.SuspendLayout();
@@ -104,6 +104,13 @@
             this.panel1.Size = new System.Drawing.Size(1726, 832);
             this.panel1.TabIndex = 3;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // panel4
+            // 
+            this.panel4.Location = new System.Drawing.Point(3, 1063);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(10, 100);
+            this.panel4.TabIndex = 19;
             // 
             // roundedPanel1
             // 
@@ -431,6 +438,7 @@
             this.btnJardinagem.Size = new System.Drawing.Size(165, 166);
             this.btnJardinagem.TabIndex = 3;
             this.btnJardinagem.UseVisualStyleBackColor = false;
+            this.btnJardinagem.Click += new System.EventHandler(this.btnJardinagem_Click);
             // 
             // btnCostura
             // 
@@ -446,6 +454,7 @@
             this.btnCostura.Size = new System.Drawing.Size(165, 166);
             this.btnCostura.TabIndex = 2;
             this.btnCostura.UseVisualStyleBackColor = false;
+            this.btnCostura.Click += new System.EventHandler(this.btnCostura_Click);
             // 
             // btnMecanica
             // 
@@ -461,6 +470,7 @@
             this.btnMecanica.Size = new System.Drawing.Size(165, 166);
             this.btnMecanica.TabIndex = 1;
             this.btnMecanica.UseVisualStyleBackColor = false;
+            this.btnMecanica.Click += new System.EventHandler(this.btnMecanica_Click);
             // 
             // btnConstrucao
             // 
@@ -666,13 +676,6 @@
             this.Minimizar.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.Minimizar.UseVisualStyleBackColor = false;
             this.Minimizar.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // panel4
-            // 
-            this.panel4.Location = new System.Drawing.Point(3, 1063);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(10, 100);
-            this.panel4.TabIndex = 19;
             // 
             // Principal
             // 

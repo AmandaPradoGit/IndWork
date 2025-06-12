@@ -24,6 +24,7 @@ namespace IndWork.Telas
             InitializeComponent();
             txtPesquisar.Text = textoBusca;
             btnPesquisar.PerformClick();
+
         }
 
         private void Fechar_Click(object sender, EventArgs e)
@@ -105,6 +106,11 @@ namespace IndWork.Telas
                 flowLayoutPanel1.Controls.Add(cardPesquisa);
                 cardPesquisa.BringToFront();
             }
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

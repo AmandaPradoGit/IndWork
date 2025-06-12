@@ -479,6 +479,7 @@
             this.btncadPrestador.TabIndex = 39;
             this.btncadPrestador.Text = "Contratar Serviço";
             this.btncadPrestador.UseVisualStyleBackColor = false;
+            this.btncadPrestador.Click += new System.EventHandler(this.btncadPrestador_Click);
             // 
             // linkLabel1
             // 
@@ -506,6 +507,7 @@
             this.lblNota.Size = new System.Drawing.Size(26, 36);
             this.lblNota.TabIndex = 35;
             this.lblNota.Text = "5";
+            this.lblNota.Click += new System.EventHandler(this.lblNota_Click);
             // 
             // label1
             // 

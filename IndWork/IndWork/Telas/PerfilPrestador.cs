@@ -35,18 +35,15 @@ namespace IndWork.Telas
             lblBairro.Text = prestador.Bairro;
             lblNum.Text = prestador.Numero.ToString();
             lblCep.Text = prestador.CEP;
-            lblNota.Refresh();
 
-
-            double media = new AvaliacaoDAO().ObterMediaAvaliacao(prestador.Id);
-            Console.WriteLine($"Média calculada: {media}"); // Depuração
+            double media = new AvaliacaoDAO().ObterMediaAvaliacao(prestador.Id) ?? 0.0;
+            Console.WriteLine($"Média calculada: {media}"); // depuração
             lblNota.Text = media.ToString("0.0") + " / 5";
-
-
         }
+
         public void AtualizarNota()
         {
-            double novaMedia = new AvaliacaoDAO().ObterMediaAvaliacao(prestador.Id);
+            double novaMedia = new AvaliacaoDAO().ObterMediaAvaliacao(prestador.Id) ?? 0.0;
             lblNota.Text = novaMedia.ToString("0.0") + " / 5"; 
         }
 
@@ -108,11 +105,28 @@ namespace IndWork.Telas
 
         }
 
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void btnAvaliar_Click(object sender, EventArgs e)
         {
-            Avaliacao avaliacao = new Avaliacao(prestador.Id); 
-            avaliacao.Show();
+            Avaliacao telaAvaliacao = new Avaliacao(prestador);
+            telaAvaliacao.ShowDialog();
         }
 
+
+        private void btncadPrestador_Click(object sender, EventArgs e)
+        {
+            Contratacao contratacao = new Contratacao(prestador.Email);
+            contratacao.Show();
+        }
+
+        private void lblNota_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Avaliacao telaAvaliacao = new Avaliacao(prestador);
+            telaAvaliacao.ShowDialog();
+        }
     }
 }

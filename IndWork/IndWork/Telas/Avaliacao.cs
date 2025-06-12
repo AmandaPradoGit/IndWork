@@ -19,10 +19,12 @@ namespace IndWork.Telas
         public int Nota { get; set; } 
         public string Comentario { get; set; }
         private int prestadorId;
-        public Avaliacao(int prestadorId)
+        private Prestador prestadorSelecionado;
+        public Avaliacao(Prestador prestador)
         {
             InitializeComponent();
             this.prestadorId = prestadorId;
+            prestadorSelecionado = prestador;
         }
 
         private void label9_Click(object sender, EventArgs e)
@@ -116,7 +118,7 @@ namespace IndWork.Telas
         }
 
         private void btnEnviar_Click(object sender, EventArgs e)
-        { 
+        {
             string comentario = txtComentario.Text.Trim();
 
             if (notaSelecionada == 0)
@@ -124,23 +126,36 @@ namespace IndWork.Telas
                 MessageBox.Show("Por favor, selecione uma nota.");
                 return;
             }
+
+            if (prestadorSelecionado == null)
+            {
+                MessageBox.Show("Erro: prestador não selecionado.");
+                return;
+            }
+
             IndWork.dados.Avaliacao ava = new IndWork.dados.Avaliacao
             {
+                PrestadorId = prestadorSelecionado.Id, 
                 Nota = notaSelecionada,
                 Comentario = comentario
             };
 
-            new AvaliacaoDAO().InserirAvaliacao(ava);
-
-            PerfilPrestador perfil = Application.OpenForms["PerfilPrestador"] as PerfilPrestador;
-            if (perfil != null)
+            try
             {
-                perfil.AtualizarNota();
-            }
+                new AvaliacaoDAO().InserirAvaliacao(ava);
 
-            MessageBox.Show("Avaliação enviada com sucesso!");
-            this.Close();
+                PerfilPrestador perfil = Application.OpenForms["PerfilPrestador"] as PerfilPrestador;
+                perfil?.AtualizarNota();
+
+                MessageBox.Show("Avaliação enviada com sucesso!");
+                this.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro ao enviar avaliação: " + ex.Message);
+            }
         }
+
 
     }
 }

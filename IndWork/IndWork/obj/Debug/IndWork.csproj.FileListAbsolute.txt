@@ -200,3 +200,4 @@ C:\Users\amand\Downloads\projeto.ZIP\projeto\IndWork (2)\IndWork\IndWork\obj\Deb
 C:\Users\amand\Downloads\projeto.ZIP\projeto\IndWork (2)\IndWork\IndWork\obj\Debug\IndWork.csproj.GenerateResource.cache
 C:\Users\amand\Downloads\projeto.ZIP\projeto\IndWork (2)\IndWork\IndWork\obj\Debug\IndWork.csproj.CoreCompileInputs.cache
 C:\Users\amand\Downloads\projeto.ZIP\projeto\IndWork (2)\IndWork\IndWork\obj\Debug\IndWork.csproj.Up2Date
+C:\Users\amand\Downloads\projeto.ZIP\projeto\IndWork (2)\IndWork\IndWork\obj\Debug\IndWork.Telas.CardPesquisaUsuario.resources

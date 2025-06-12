@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{025B96A3-E3C5-4F86-B0F1-8489EFA8B796}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>IndWork</RootNamespace>
+    <AssemblyName>IndWork</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Codigo\Dominio\Entidades\Enums\Categoria.cs" />
+    <Compile Include="Codigo\Dominio\Entidades\EntidadeBase.cs" />
+    <Compile Include="Codigo\Dominio\Entidades\Pessoa.cs" />
+    <Compile Include="Codigo\Dominio\Entidades\Prestador.cs" />
+    <Compile Include="Codigo\Infraestrutura\Auxiliares\ValidadorCpf.cs" />
+    <Compile Include="Codigo\Infraestrutura\Auxiliares\ValidadorEmail.cs" />
+    <Compile Include="Codigo\Infraestrutura\Persistencia\ContextoDeDados - Copy.cs" />
+    <Compile Include="Codigo\Infraestrutura\Persistencia\InicializadorBanco.cs" />
+    <Compile Include="Codigo\Infraestrutura\Repositorios\PrestadorRepositorio.cs" />
+    <Compile Include="Codigo\Infraestrutura\ScriptsSql\AuxiliarRecursos.cs" />
+    <Compile Include="Codigo\Infraestrutura\Persistencia\ContextoDeDados.cs" />
+    <Compile Include="Codigo\Infraestrutura\Repositorios\PessoaRepositorio.cs" />
+    <Compile Include="Codigo\Infraestrutura\Repositorios\RepositorioBase.cs" />
+    <Compile Include="Codigo\Infraestrutura\ScriptsSql\GerenciarScripts.cs" />
+    <Compile Include="Codigo\Servicos\BaseServico.cs" />
+    <Compile Include="Codigo\Servicos\PrestadorServico.cs" />
+    <Compile Include="Codigo\Servicos\PessoaServico.cs" />
+    <Compile Include="Telas\Ajuda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\Ajuda.Designer.cs">
+      <DependentUpon>Ajuda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\Avaliacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\Avaliacao.Designer.cs">
+      <DependentUpon>Avaliacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\CadastrarContratante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\CadastrarContratante.Designer.cs">
+      <DependentUpon>CadastrarContratante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\CadastroPrestador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\CadastroPrestador.Designer.cs">
+      <DependentUpon>CadastroPrestador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\CardPesquisa.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Telas\CardPesquisa.Designer.cs">
+      <DependentUpon>CardPesquisa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\Categorias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\Categorias.Designer.cs">
+      <DependentUpon>Categorias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\Contratacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\Contratacao.Designer.cs">
+      <DependentUpon>Contratacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\GerenciarContratantes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\GerenciarContratantes.Designer.cs">
+      <DependentUpon>GerenciarContratantes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\GerenciarPrestadores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\GerenciarPrestadores.Designer.cs">
+      <DependentUpon>GerenciarPrestadores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\PerfilPrestador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\PerfilPrestador.Designer.cs">
+      <DependentUpon>PerfilPrestador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\Pesquisa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\Pesquisa.Designer.cs">
+      <DependentUpon>Pesquisa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\Principal.Designer.cs">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Telas\Ferramentas\Arredondar.cs" />
+    <Compile Include="Telas\Ferramentas\CircularButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Telas\Ferramentas\CircularPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Telas\Ferramentas\GradientPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Telas\Ferramentas\RoundedButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Telas\Ferramentas\RoundedPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Telas\Ferramentas\RoundedPicture.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Telas\SobreNos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\SobreNos.Designer.cs">
+      <DependentUpon>SobreNos.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Telas\Ajuda.resx">
+      <DependentUpon>Ajuda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\Avaliacao.resx">
+      <DependentUpon>Avaliacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\CadastrarContratante.resx">
+      <DependentUpon>CadastrarContratante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\CadastroPrestador.resx">
+      <DependentUpon>CadastroPrestador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\CardPesquisa.resx">
+      <DependentUpon>CardPesquisa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\Categorias.resx">
+      <DependentUpon>Categorias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\Contratacao.resx">
+      <DependentUpon>Contratacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\GerenciarContratantes.resx">
+      <DependentUpon>GerenciarContratantes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\GerenciarPrestadores.resx">
+      <DependentUpon>GerenciarPrestadores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\PerfilPrestador.resx">
+      <DependentUpon>PerfilPrestador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\Pesquisa.resx">
+      <DependentUpon>Pesquisa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\Principal.resx">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\SobreNos.resx">
+      <DependentUpon>SobreNos.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IndWork.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImagemInicial.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\opened envelope.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LinkedIn %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\instagram logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facebook %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Brick Wall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tools.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sewing Machine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Watering Can.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Confectionery.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de tela 2025-04-23 200216.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectangle 104.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IndWork1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectangle 105.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IndWork %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\telephone receiver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Business.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Codigo\Infraestrutura\ScriptsSql\RemoverPrestador.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Codigo\Infraestrutura\ScriptsSql\AtualizarPessoa.sql" />
+    <EmbeddedResource Include="Codigo\Infraestrutura\ScriptsSql\InserirPessoa.sql" />
+    <EmbeddedResource Include="Codigo\Infraestrutura\ScriptsSql\ListarPessoas.sql" />
+    <EmbeddedResource Include="Codigo\Infraestrutura\ScriptsSql\ObtemPessoaPorId.sql" />
+    <EmbeddedResource Include="Codigo\Infraestrutura\ScriptsSql\RemoverPessoa.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Codigo\Infraestrutura\ScriptsSql\InserirPrestador.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Codigo\Infraestrutura\ScriptsSql\ListarPrestadores.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Codigo\Infraestrutura\ScriptsSql\ObtemPrestadorPorId.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Codigo\Infraestrutura\ScriptsSql\AtualizarPrestador.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="IndWork.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="IndWork_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>IndWork.mdf</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
